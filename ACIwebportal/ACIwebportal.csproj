@@ -57,7 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Admission.aspx" />
+    <Content Include="AboutUs.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -99,6 +99,7 @@
     <Content Include="images\333.jpg" />
     <Content Include="images\444.jpg" />
     <Content Include="images\555.jpg" />
+    <Content Include="images\aboutus1.jpg" />
     <Content Include="images\ACImainpagepic.jpg" />
     <Content Include="images\ACI_logo.png" />
     <Content Include="images\banner1.jpg" />
@@ -126,34 +127,30 @@
     <Content Include="images\up2.jpg" />
     <Content Include="images\up3.jpg" />
     <Content Include="images\up4.jpg" />
+    <Content Include="images\value2.jpeg" />
+    <Content Include="images\value3.jpeg" />
+    <Content Include="images\value4.jpeg" />
+    <Content Include="images\value5.jpeg" />
+    <Content Include="images\values1.jpeg" />
+    <Content Include="images\vision.jpg" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\html5shiv.js" />
     <Content Include="js\jquery.js" />
-    <Content Include="Media.aspx" />
-    <Content Include="Services.aspx" />
-    <Content Include="Training.aspx" />
     <Content Include="Web.config" />
     <Content Include="Home.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Admission.aspx.cs">
-      <DependentUpon>Admission.aspx</DependentUpon>
+    <Compile Include="AboutUs.aspx.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Admission.aspx.designer.cs">
-      <DependentUpon>Admission.aspx</DependentUpon>
+    <Compile Include="AboutUs.aspx.designer.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Media.aspx.cs">
-      <DependentUpon>Media.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Media.aspx.designer.cs">
-      <DependentUpon>Media.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Home.aspx.cs">
@@ -162,20 +159,6 @@
     </Compile>
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Services.aspx.cs">
-      <DependentUpon>Services.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Services.aspx.designer.cs">
-      <DependentUpon>Services.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Training.aspx.cs">
-      <DependentUpon>Training.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Training.aspx.designer.cs">
-      <DependentUpon>Training.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>
