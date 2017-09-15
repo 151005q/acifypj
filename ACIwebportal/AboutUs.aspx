@@ -134,7 +134,7 @@
             <div class="container">
                 <div class="row">
                     <div class="intro-messagePage col-sm-12">
-                      <h1>Our Mission, Vision, Values</h1>                     
+                      <h1>About Us</h1>                     
                     </div>
                 </div>
             </div>
@@ -146,8 +146,7 @@
                 <div class="col-sm-12">
                     <ul class="breadcrumb">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li class="active">Our Vision, Mission, Values</li>
+                        <li class="active">About Us</li>
                     </ul>
                     <br />
                 </div>
@@ -155,15 +154,15 @@
             <div class="row">
                 <div class="col-sm-12">
                     <ul class="nav nav-tabs">
-                        <li class="active"><a href="#home" data-toggle="tab" aria-expanded="true">Our Vision, Mission, Values</a></li>
-                        <li class=""><a href="AboutUsFacilities.aspx" data-toggle="tab" aria-expanded="false">Facilities</a></li>
-                        <li class=""><a href="#profile" data-toggle="tab" aria-expanded="false">ACI Distinguished Chefs Advisory Panel</a></li>
-                        <li class=""><a href="#profile" data-toggle="tab" aria-expanded="false">Our Partners</a></li>
-                        <li class=""><a href="#profile" data-toggle="tab" aria-expanded="false">FAQs</a></li>
+                        <li class="active"><a href="#OurVision" data-toggle="tab" aria-expanded="true">Our Vision, Mission, Values</a></li>
+                        <li> <a href="#Facilities" data-toggle="tab" aria-expanded="true">Facilities</a></li>
+                        <li class=""><a href="#ACIChefs" data-toggle="tab" aria-expanded="false">ACI Distinguished Chefs Advisory Panel</a></li>
+                        <li class=""><a href="#OurPartners" data-toggle="tab" aria-expanded="false">Our Partners</a></li>
+                        <li class=""><a href="#FAQs" data-toggle="tab" aria-expanded="false">FAQs</a></li>
 
                     </ul>
                     <div id="myTabContent" class="tab-content">
-                        <div class="tab-pane fade active in" id="home">
+                        <div class="tab-pane fade active in" id="OurVision">
                             <div id="our-services">
                                 <div class="container padding-top padding-bottom">
                                     <div class="row">
@@ -241,7 +240,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="profile">
+                        <div class="tab-pane fade" id="Facilities">
                             <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit.</p>
                         </div>
                         <div class="tab-pane fade" id="dropdown1">
