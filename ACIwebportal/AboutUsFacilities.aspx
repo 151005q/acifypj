@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AboutUs.aspx.cs" Inherits="ACIwebportal.AboutUs" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AboutUsFacilities.aspx.cs" Inherits="ACIwebportal.AboutUsFacilities" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -134,7 +134,7 @@
             <div class="container">
                 <div class="row">
                     <div class="intro-messagePage col-sm-12">
-                      <h1>Our Mission, Vision, Values</h1>                     
+                      <h1>Facilities</h1>                     
                     </div>
                 </div>
             </div>
@@ -147,7 +147,7 @@
                     <ul class="breadcrumb">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About Us</a></li>
-                        <li class="active">Our Vision, Mission, Values</li>
+                        <li class="active">Our Facilities</li>
                     </ul>
                     <br />
                 </div>
@@ -156,7 +156,7 @@
                 <div class="col-sm-12">
                     <ul class="nav nav-tabs">
                         <li class="active"><a href="#home" data-toggle="tab" aria-expanded="true">Our Vision, Mission, Values</a></li>
-                        <li class=""><a href="AboutUsFacilities.aspx" data-toggle="tab" aria-expanded="false">Facilities</a></li>
+                        <li class=""><a href="#profile" data-toggle="tab" aria-expanded="false">Facilities</a></li>
                         <li class=""><a href="#profile" data-toggle="tab" aria-expanded="false">ACI Distinguished Chefs Advisory Panel</a></li>
                         <li class=""><a href="#profile" data-toggle="tab" aria-expanded="false">Our Partners</a></li>
                         <li class=""><a href="#profile" data-toggle="tab" aria-expanded="false">FAQs</a></li>
