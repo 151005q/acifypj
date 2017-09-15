@@ -425,7 +425,7 @@
         <div class="col-md-2">
         </div>
     </div>
-    <div class="container padding-bottom">
+  <div class="container padding-bottom">
         <div class="row section-title text-center">
             <div class="col-sm-8 col-sm-offset-2">
                 <h1>
