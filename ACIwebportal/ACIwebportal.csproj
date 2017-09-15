@@ -58,7 +58,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AboutUs.aspx" />
-    <Content Include="AboutUsFacilities.aspx" />
     <Content Include="Admission.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
@@ -152,13 +151,6 @@
     </Compile>
     <Compile Include="AboutUs.aspx.designer.cs">
       <DependentUpon>AboutUs.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="AboutUsFacilities.aspx.cs">
-      <DependentUpon>AboutUsFacilities.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="AboutUsFacilities.aspx.designer.cs">
-      <DependentUpon>AboutUsFacilities.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admission.aspx.cs">
       <DependentUpon>Admission.aspx</DependentUpon>
