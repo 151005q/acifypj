@@ -121,13 +121,28 @@ item,
     text-align: center;
     color: #f8f8f8;
     background: url('../images/ACImainpagepic.jpg') no-repeat center center;
-    background-size: cover;
+    background-size:cover;
+}
+.intro-headerAboutUs
+{
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url('../images/aboutus1.jpg') no-repeat center center;
+    background-size:cover;
 }
 
 .intro-message {
     position: relative;
     padding-top: 5%;
     padding-bottom: 10%;
+}
+.intro-messagePage {
+    position: relative;
+    padding-top: 32.15%;
+    padding-bottom: 5%;
+    text-align: center;
 }
 
 .intro-message > h1

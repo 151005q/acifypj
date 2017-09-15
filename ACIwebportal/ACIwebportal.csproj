@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AboutUs.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -98,6 +99,7 @@
     <Content Include="images\333.jpg" />
     <Content Include="images\444.jpg" />
     <Content Include="images\555.jpg" />
+    <Content Include="images\aboutus1.jpg" />
     <Content Include="images\ACImainpagepic.jpg" />
     <Content Include="images\ACI_logo.png" />
     <Content Include="images\banner1.jpg" />
@@ -125,6 +127,12 @@
     <Content Include="images\up2.jpg" />
     <Content Include="images\up3.jpg" />
     <Content Include="images\up4.jpg" />
+    <Content Include="images\value2.jpeg" />
+    <Content Include="images\value3.jpeg" />
+    <Content Include="images\value4.jpeg" />
+    <Content Include="images\value5.jpeg" />
+    <Content Include="images\values1.jpeg" />
+    <Content Include="images\vision.jpg" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\html5shiv.js" />
@@ -133,6 +141,13 @@
     <Content Include="Home.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutUs.aspx.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs.aspx.designer.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

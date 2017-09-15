@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="ACIwebportal.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AboutUs.aspx.cs" Inherits="ACIwebportal.AboutUs" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -129,213 +129,139 @@
             </div>
         </div>
         <!-- Landing Page -->
-        <div class="intro-header">
+        <div class="intro-headerAboutUs">
             <!-- change this image in custom.css-->
             <div class="container">
                 <div class="row">
-                    <div class="intro-message col-sm-6">
-                        <h1>Asian Culinary Institute Singapore</h1>
-                        
-                        <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
-                            <li><a href="https://twitter.com/" class="btn btn-success btn-lg"><i class="fa fa-twitter fa-fw"></i><span class="network-name">Twitter</span></a> </li>
-                            <li><a href="https://github.com/" class="btn btn-default btn-lg"><i class="fa fa-youtube fa-fw"></i><span class="network-name">YouTube</span></a> </li>
-                            <li><a href="#" class="btn btn-primary btn-lg"><i class="fa fa-facebook fa-fw"></i><span
-                                class="network-name">facebook</span></a> </li>
-                        </ul>
+                    <div class="intro-messagePage col-sm-12">
+                      <h1>Our Mission, Vision, Values</h1>                     
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Start Our Services -->
-        <div id="our-services">
-            <div class="container padding-top padding-bottom">
-                <div class="row section-title text-center">
-                    <div class="col-sm-8 col-sm-offset-2">
-                        <h1>
-                            <span>Our</span> Events</h1>
-                      
-                    </div>
+        <br />
+        <br />
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul class="breadcrumb">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li class="active">Our Vision, Mission, Values</li>
+                    </ul>
+                    <br />
                 </div>
-                <div class="row text-center">
-                    <div class="col-sm-4 service">
-                        <div class="service-content">
-                             
-                        <asp:Image class="img-responsive" ID="Image3" ImageUrl="~/images/event1.jpg" runat="server" Height="140" Width="280"/>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 service">
-                        <div class="service-content">
-                            <h2>
-                            September One Day Pastry Course</h2>
-                            <h4>
-                            15 Sep 2017</h4>
-                            <p>
-                              
-                                Have you always wanted to try your hand at pastry making? This course provides you with the opportunity for a hands-on session with our pastry chef to learn... <strong><a href="#">Read More</a></strong>
-                            </p>
-                        </div>
-                    </div>
-                    
-                </div>
-                 <div class="row text-center">
-                    <div class="col-sm-4 service">
-                        <div class="service-content">
-                           <asp:Image class="img-responsive" ID="Image1" ImageUrl="~/images/event2.jpg" runat="server" Height="140" Width="280" />
-                        </div>
-                    </div>
-                    <div class="col-sm-6 service">
-                        <div class="service-content">
-                           <h2>
-                            ACI Open House</h2>
-                            <h4>
-                            15 Sep 2017</h4>
-                            <p>
-                                ACI will be having an Open House on 3 Dec 2016, Saturday. Join us for the exciting activities happening on that day. Hurry and grab your slots for the sessi... <strong><a href="#">Read More</a></strong>
-                                 </p>
-                        </div>
-                    </div>
-                    
-                </div>
-                 <div class="row text-center">
-                    <div class="col-sm-4 service">
-                        <div class="service-content">
-                            <asp:Image class="img-responsive" ID="Image2" ImageUrl="~/images/event3.jpg" runat="server" Height="140" Width="280"/>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 service">
-                        <div class="service-content">
-                            <h2>
-                            Culinary Star Quest 2017</h2>
-                            <h4>
-                            15 Sep 2017</h4>
-                            <p>
-                                 
-                                Culinary Star Quest competition is to attract aspiring talent who have the passion in culinary and are keen to join the F&B Industry. This is a platform to c... <strong><a href="#">Read More</a></strong>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#home" data-toggle="tab" aria-expanded="true">Our Vision, Mission, Values</a></li>
+                        <li class=""><a href="#profile" data-toggle="tab" aria-expanded="false">Facilities</a></li>
+                        <li class=""><a href="#profile" data-toggle="tab" aria-expanded="false">ACI Distinguished Chefs Advisory Panel</a></li>
+                        <li class=""><a href="#profile" data-toggle="tab" aria-expanded="false">Our Partners</a></li>
+                        <li class=""><a href="#profile" data-toggle="tab" aria-expanded="false">FAQs</a></li>
+
+                    </ul>
+                    <div id="myTabContent" class="tab-content">
+                        <div class="tab-pane fade active in" id="home">
+                            <div id="our-services">
+                                <div class="container padding-top padding-bottom">
+                                    <div class="row">
+                                        <div class="col-sm-8">
+                                            <h1>
+                                                <span>Our</span> Mission and Vision</h1>
+                                        </div>
+                                    </div>
+                                    <div class="row text-center">
+                                        <div class="col-sm-5 service">
+                                            <div class="service-content">
+                                                <asp:Image class="img-responsive" ID="Image3" ImageUrl="~/images/vision.jpg" runat="server" Height="240" Width="630" />
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 service">
+                                            <div class="service-content">
+                                                <h2>Our Vision</h2>
+                                                <p>
+                                                    To be a Centre of Excellence in the Food & Beverage Services industry
+                                                </p>
+                                                <h2>Our Mission</h2>
+                                                <p>
+                                                    We provide quality training to help professionalise Singapore's Food & Beverage Services industry and support enterprises in their journey towards productivity enhancement and business transformation.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container padding-bottom">
+                                    <div class="row">
+                                        <div class="col-sm-8">
+                                            <h1>
+                                                <span>Our</span>Values</h1>
+                                        </div>
+                                    </div>
+                                    <div class="text-cente">
+                                        <div class="col-sm-6 col-md-6 service">
+                                            <div class="service-content">
+                                                <asp:Image class="img-responsive" ID="Image4" ImageUrl="~/images/values1.jpeg" runat="server" Height="320" Width="569" />                                          
+                                                <h3>Can-Do Spirit</h3>                                     
+                                            </div>
+                                        </div>
+                                       <div class="col-sm-6 col-md-6 service">
+                                            <div class="service-content">
+                                                <asp:Image class="img-responsive" ID="Image1" ImageUrl="~/images/value2.jpeg" runat="server" Height="320" Width="569" />                                          
+                                                <h3>Borderless Teamwork</h3>                                     
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-6 service">
+                                            <div class="service-content">
+                                                <asp:Image class="img-responsive" ID="Image2" ImageUrl="~/images/value3.jpeg" runat="server" Height="320" Width="569"/>                                          
+                                                <h3>Development Orientation</h3>                                     
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-6 service">
+                                            <div class="service-content">
+                                                <asp:Image class="img-responsive" ID="Image5" ImageUrl="~/images/value4.jpeg" runat="server" Height="320" Width="569" />                                          
+                                                <h3>Innovation and Enterprise</h3>                                     
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-6 service">
+                                            <div class="service-content">
+                                                <asp:Image class="img-responsive" ID="Image6" ImageUrl="~/images/value5.jpeg" runat="server" Height="320" Width="569"/>                                          
+                                                <h3>Nurturing and Caring Culture</h3>                                     
+                                            </div>
+                                        </div>
+                                     
+                                      
+                                    </div>
+                                </div>
 
 
-                                </p>
+
+                                <div class="height">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile">
+                            <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit.</p>
+                        </div>
+                        <div class="tab-pane fade" id="dropdown1">
+                            <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork.</p>
+                        </div>
+                        <div class="tab-pane fade" id="dropdown2">
+                            <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater.</p>
                         </div>
                     </div>
-                    
                 </div>
+
             </div>
-            <div class="height">
-            </div>
-        </div>
-        <!-- /# Our Services -->
-        <!-- Slider -->
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img src="images/banner1.jpg" />
-                </div>
-                <div class="item">
-                    <img src="images/banner2.jpg" />
-                </div>
-                <div class="item">
-                    <img src="images/banner3.png" />
-                    <%--  <div class="carousel-caption">
-                    <h2>
-                        Slide Three</h2>
-                    <h3>
-                        Bootstrap is completely free to download and use!</h3>
-                </div>--%>
-                </div>
-            </div>
-            <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Previous</span> </a><a class="right carousel-control" href="#myCarousel" role="button"
-                    data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only">Next</span> </a>
-        </div>
-       
-        <div class="container padding-bottom">
-            <div class="row section-title text-center">
-                <div class="col-sm-8 col-sm-offset-2">
-                    <h1>
-                        <span>Our</span> up coming courses</h1>
-                </div>
-            </div>
-            <div class="text-cente">
-                <div class="col-sm-6 col-md-3 service">
-                    <div class="service-content">
-                       <asp:Image class="img-responsive" ID="Image4" ImageUrl="~/images/up1.jpg" runat="server" Height="140" Width="280"/>
-                        <h2>
-                            WSQ Follow Food & Beverage Safety and Hygiene Policies and Procedures</h2>
-                        <h4>10 Jun 2017</h4>
-                        <p>
-                           This programme is a SSG and NEA accredited programme.  Participants will learn the basic of food safety and hygiene knowledge required to be a certified... <strong><a href="#">Read More</a></strong></p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 service">
-                     <div class="service-content">
-                       <asp:Image class="img-responsive" ID="Image5" ImageUrl="~/images/up2.jpg" runat="server" Height="140" Width="280"/>
-                        <h2>
-                            WSQ Follow Food & Beverage Safety and Hygiene Policies and Procedures (Blended Learning)</h2>
-                        <h4>25 July 2017</h4>
-                        <p>
-                           This programme is a SSG and NEA accredited programme.  Participants will learn the basic of food safety and hygiene knowledge required to be a certified... <strong><a href="#">Read More</a></strong></p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 service">
-                    <div class="service-content">
-                       <asp:Image class="img-responsive" ID="Image6" ImageUrl="~/images/up3.jpg" runat="server" Height="140" Width="280"/>
-                        <h2>
-                            SkillsFuture for Digital Workplace (F&B & Hospitality)</h2>
-                        <h4>29 Aug 2017</h4>
-                        <p>
-                           This programme is a SSG and NEA accredited programme.  Participants will learn the basic of food safety and hygiene knowledge required to be a certified... <strong><a href="#">Read More</a></strong></p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 service">
-                    <div class="service-content">
-                       <asp:Image class="img-responsive" ID="Image7" ImageUrl="~/images/up4.jpg" runat="server" Height="140" Width="280"/>
-                        <h2>
-                            WSQ Apply Food Safety Management Systems for Food Service Establishments</h2>
-                        <h4>19 Sep 2017</h4>
-                        <p>
-                           This programme is a SSG and NEA accredited programme.  Participants will learn the basic of food safety and hygiene knowledge required to be a certified... <strong><a href="#">Read More</a></strong></p>
-                    </div>
-                </div>
-            </div>          
         </div>
 
-          <div class="container padding-bottom">
-        <div class="row section-title text-center">
-            <div class="col-sm-8 col-sm-offset-2">
-                <h1>
-                    <span>Our</span> Facilities</h1>
-                <p>
-                    ACI's Kitchens are equipped with the state-of-the-art equipment and a layout that promotes efficiency and productivity through seamless preparations and cooking of food items... <strong><a href="#">Read More</a></strong></p>
-            </div>
-        </div>
-        <div class="text-center our-clients">
-            <ul>
-               <li><a href="#"> <asp:Image class="img-responsive" ID="Image8" ImageUrl="~/images/fac1.jpg" runat="server"  Height="160"/></a></li>
-                <li><a href="#">
-                   <asp:Image class="img-responsive" ID="Image9" ImageUrl="~/images/fac2.jpg" runat="server"  Height="160"/></a></li>
-                <li><a href="#">
-                    <asp:Image class="img-responsive" ID="Image10" ImageUrl="~/images/fac3.jpg" runat="server"  Height="160"/></a></li>
-                <li><a href="#">
-                    <asp:Image class="img-responsive" ID="Image11" ImageUrl="~/images/fac4.jpg" runat="server"  Height="160"/></a></li>
-                  <li><a href="#">
-                    <asp:Image class="img-responsive" ID="Image12" ImageUrl="~/images/fac5.jpg" runat="server"  Height="160"/></a></li>
-              
-            </ul>
-        </div>
-    </div>
+
 
 
 
         <!-- footer -->
-         <footer id="footer">
+        <footer id="footer">
 		<!-- footer-widget-wrapper -->
 		<div class="footer-widget-wrapper">
 			<div class="container">
