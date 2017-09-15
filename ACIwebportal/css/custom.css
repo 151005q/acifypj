@@ -129,6 +129,12 @@ item,
     padding-top: 5%;
     padding-bottom: 10%;
 }
+.intro-messagePage {
+    position: relative;
+    padding-top: 32.15%;
+    padding-bottom: 5%;
+    text-align:center;
+}
 
 .intro-message > h1
 {
