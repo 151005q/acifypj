@@ -103,7 +103,7 @@
         </div>
         <br />
         <ul class="breadcrumb">
-            <li class="active">Home</li>
+            <li class="active">Training</li>
         </ul>
 
         <div class="row section-title text-center">

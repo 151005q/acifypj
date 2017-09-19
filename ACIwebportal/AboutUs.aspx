@@ -151,8 +151,8 @@
                     <br />
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-12">
                     <ul class="nav nav-tabs">
                         <li class="active"><a href="#OurVision" data-toggle="tab" aria-expanded="true">Our Vision, Mission, Values</a></li>
                         <li><a href="#Facilities" data-toggle="tab" aria-expanded="true">Facilities</a></li>
