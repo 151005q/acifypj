@@ -1,6 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Media.aspx.cs" Inherits="ACIwebportal.Media" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta charset="utf-8" />
@@ -14,6 +15,7 @@
         rel="stylesheet" type="text/css" />
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
 </head>
+    
 <body>
     <form id="form1" runat="server">
         <div class="container">
@@ -23,72 +25,72 @@
         </div>
         <!-- Navigation -->
         <nav class="navbar navbar-default" role="navigation">
-    <div class="container">
-    <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNav">
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
-    </button>
-    </div>
-    <div class="collapse navbar-collapse" id="myNav">
-    <ul class="nav navbar-nav">
-    <li class="active"><a href="#">Home</a></li>
-        <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span></a>
-    <ul class="dropdown-menu">
-    <li class="active"><a href="#">Our vision, Mission, Values</a></li>
-    <li><a href="#">Facilities</a></li>
-    <li><a href="#">ACI distinguished chefs advisory panel</a></li>
-    <li><a href="#">Our partnets</a></li>
-        <li><a href="#">FAQs</a></li>
-    </ul>
-            </li>
-    <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses<span class="caret"></span></a>
-    <ul class="dropdown-menu">
-    <li class="active"><a href="#">Full Qualification</a></li>
-    <li><a href="#">Short</a></li>
-    <li><a href="#">Customised Courses</a></li>
-    </ul>
-    </li>
-         <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Training<span class="caret"></span></a>
-    <ul class="dropdown-menu">
-    <li class="active"><a href="#">Assessment-Only Pathway</a></li>
-    </ul>
-    </li>
-        <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
-    <ul class="dropdown-menu">
-    <li class="active"><a href="#">Career services</a></li>
-         <li><a href="#">Project & Consultancy services</a></li>
-         <li><a href="#">Job vacancies listing</a></li>
-    </ul>
-            </li>
-              <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admission<span class="caret"></span></a>
-    <ul class="dropdown-menu">
-    <li class="active"><a href="#">Online registeration</a></li>
-         
-    </ul>
-    </li>
-         <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Media<span class="caret"></span></a>
-    <ul class="dropdown-menu">
-    <li class="active"><a href="#">Photo gallery</a></li>
-         <li><a href="#">Videos</a></li>
-         <li><a href="#">Press Releases</a></li>
-    </ul>
-            </li>
-   
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
-    <li><a href="#" class="btn-link" class="btn-link" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-user"></span> Sign-In</a></li>
-    </ul>
-    </div>
-    </div>   
-    </nav>
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNav">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNav">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="active"><a href="#">Our vision, Mission, Values</a></li>
+                                <li><a href="#">Facilities</a></li>
+                                <li><a href="#">ACI distinguished chefs advisory panel</a></li>
+                                <li><a href="#">Our partnets</a></li>
+                                <li><a href="#">FAQs</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="active"><a href="#">Full Qualification</a></li>
+                                <li><a href="#">Short</a></li>
+                                <li><a href="#">Customised Courses</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Training<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="active"><a href="#">Assessment-Only Pathway</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="active"><a href="#">Career services</a></li>
+                                <li><a href="#">Project & Consultancy services</a></li>
+                                <li><a href="#">Job vacancies listing</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admission<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="active"><a href="#">Online registeration</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Media<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="active"><a href="#">Photo gallery</a></li>
+                                <li><a href="#">Videos</a></li>
+                                <li><a href="#">Press Releases</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#" class="btn-link" class="btn-link" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-user"></span>Sign-In</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <!-- Modal -->
         <div id="myModal" class="modal fade in" role="dialog">
             <div class="modal-dialog">
@@ -129,12 +131,14 @@
             </div>
         </div>
         <!-- Landing Page -->
-        <div class="intro-headerCourses">
+        <div class="intro-header">
             <!-- change this image in custom.css-->
             <div class="container">
                 <div class="row">
                     <div class="intro-messagePage col-sm-12">
-                        <h1>Courses</h1>
+                        <h1>Media</h1>
+
+
                     </div>
                 </div>
             </div>
@@ -158,32 +162,48 @@
             <div class="row">
                 <div class="col-sm-12">
                     <ul class="nav nav-tabs">
-                        <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
-                        <li><a href="#profile" data-toggle="tab">Profile</a></li>
-                        <li class="disabled"><a>Disabled</a></li>
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Dropdown <span class="caret"></span>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#dropdown1" data-toggle="tab">Action</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#dropdown2" data-toggle="tab">Another action</a></li>
-                            </ul>
-                        </li>
+                        <li class="active"><a href="#photo" data-toggle="tab">Photo Gallery</a></li>
+                        <li><a href="#video" data-toggle="tab">Videos</a></li>
+                        <li><a href="#press" data-toggle="tab">Press Releases</a></li>
+                        
                     </ul>
                     <div id="myTabContent" class="tab-content">
-                        <div class="tab-pane fade active in" id="home">
-                            <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+                        <div class="tab-pane fade active in" id="photo">
+                            <br />
+                            <div>
+                                <ul style="list-style-type:none; padding:0; margin:0; text-align:center;">
+                                    <li>
+                                        <div class="col-sm-6 col-md-6">
+                                        <asp:Image class="img-responsive" ImageUrl="~/images/photogallery1.jpg" ID="Image1" runat="server" style="float:left;"/>
+                                        <p>08 July 2017</p>
+                                        <p><h4>Culinary Star Quest Competition (AM Session)</h4></p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="col-sm-6 col-md-6">
+                                    <asp:Image class="img-responsive" ImageUrl="~/images/photogallery2.jpg" ID="Image2" runat="server" style ="float:left;"/>
+                                    <p>08 July 2017</p>
+                                    <p><h4>Culinary Star Quest Competition (PM Session)</h4></p>
+                                </div>
+                                    </li>
+                                </ul>
+                            </div>
+                         </div>
+                        <div class="tab-pane fade" id="video">
+                            <h5>ACI Corporate Video</h5>
+                            <iframe src="https://www.youtube.com/embed/sM7TBBfOTQY" frameborder="0" allowfullscreen></iframe>
+                            <h5>Food Services Sectoral Manpower Plan </h5>
+                            <iframe src="https://www.youtube.com/embed/Iv0Gy6bmjwU" frameborder="0" allowfullscreen></iframe>
+                            <h5>NYP’s ACI signs MOU with Indian Restaurants Association of Singapore (iRAS) - 30 Oct 2015</h5>
+                            <iframe src="https://www.youtube.com/embed/zgVwc2ldPvY" frameborder="0" allowfullscreen></iframe>
+                            <iframe src="https://www.youtube.com/embed/PFRExiXnSKU" frameborder="0" allowfullscreen></iframe>
+                            <h5>WDA Team Building (17 Feb 2015) - Swiss Roll making with CNY deco</h5>
+                            <iframe src="https://www.youtube.com/embed/auLi30qYGEo" frameborder="0" allowfullscreen></iframe>
+                            <iframe src="https://www.youtube.com/embed/fCxQCHGBR-Y" frameborder="0" allowfullscreen></iframe>
                         </div>
-                        <div class="tab-pane fade" id="profile">
-                            <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit.</p>
+                        <div class="tab-pane fade" id="press">
                         </div>
-                        <div class="tab-pane fade" id="dropdown1">
-                            <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork.</p>
-                        </div>
-                        <div class="tab-pane fade" id="dropdown2">
-                            <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater.</p>
-                        </div>
+
                     </div>
                 </div>
             </div>

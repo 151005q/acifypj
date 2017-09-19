@@ -154,6 +154,8 @@
     <Content Include="images\p7.jpg" />
     <Content Include="images\p8.jpg" />
     <Content Include="images\p9.jpg" />
+    <Content Include="images\photogallery1.jpg" />
+    <Content Include="images\photogallery2.jpg" />
     <Content Include="images\up1.jpg" />
     <Content Include="images\up2.jpg" />
     <Content Include="images\up3.jpg" />
