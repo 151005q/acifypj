@@ -453,7 +453,9 @@
         <!--/our-clients -->
     </div>
     <!-- footer -->
-    <footer id="footer">
+   
+        <!-- footer -->
+        <footer id="footer">
 		<!-- footer-widget-wrapper -->
 		<div class="footer-widget-wrapper">
 			<div class="container">
@@ -462,7 +464,7 @@
 					<!-- footer-widget -->				
 					<div class="col-md-3 col-sm-6">
 						<div class="footer-widget text-widget">
-							<a href="index.html" class="footer-logo"> <img src="images/logo.png" class="img-responsive" /></a>
+							<a href="index.html" class="footer-logo"> <img src="images/ACI_logo.png" class="img-responsive" /></a>
 							<p>A web template system uses a template processor to combine web templates to form finished web pages, possibly using some data source to customize the pages or present a large amount of content on similar-looking pages.</p>
 							<ul class="social list-inline">
 								<li><a href="#"><i class="fa fa-skype"></i></a></li>
@@ -511,27 +513,67 @@
 		<div class="footer-bottom">
 			<div class="container">
 				<div class="row">				
-					<div class="col-sm-6">
+					<div class="col-sm-8">
 						<ul class="footer-menu list-inline">
-							<li><a href="#">Home</a></li>
-							<li><a href="#">Gallery</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Portfolio</a></li>
-							<li><a href="#">Blog</a></li>
-							<li><a href="#">Contact</a></li>
+							<li class="active"><a href="#">Home</a></li>
+        <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span></a>
+    <ul class="dropdown-menu">
+    <li class="active"><a href="#">Our vision, Mission, Values</a></li>
+    <li><a href="#">Facilities</a></li>
+    <li><a href="#">ACI distinguished chefs advisory panel</a></li>
+    <li><a href="#">Our partnets</a></li>
+        <li><a href="#">FAQs</a></li>
+    </ul>
+            </li>
+    <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses<span class="caret"></span></a>
+    <ul class="dropdown-menu">
+    <li class="active"><a href="#">Full Qualification</a></li>
+    <li><a href="#">Short</a></li>
+    <li><a href="#">Customised Courses</a></li>
+    </ul>
+    </li>
+         <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Training<span class="caret"></span></a>
+    <ul class="dropdown-menu">
+    <li class="active"><a href="#">Assessment-Only Pathway</a></li>
+    </ul>
+    </li>
+        <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
+    <ul class="dropdown-menu">
+    <li class="active"><a href="#">Career services</a></li>
+         <li><a href="#">Project & Consultancy services</a></li>
+         <li><a href="#">Job vacancies listing</a></li>
+    </ul>
+            </li>
+              <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admission<span class="caret"></span></a>
+    <ul class="dropdown-menu">
+    <li class="active"><a href="#">Online registeration</a></li>
+         
+    </ul>
+    </li>
+         <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Media<span class="caret"></span></a>
+    <ul class="dropdown-menu">
+    <li class="active"><a href="#">Photo gallery</a></li>
+         <li><a href="#">Videos</a></li>
+         <li><a href="#">Press Releases</a></li>
+    </ul>
+            </li>
 						</ul>
 					</div>
-
-					<div class="col-sm-6">
+					<div class="col-sm-4">
 						<div class="copy-right text-right">
-							<p>&copy; Copyright <strong>aspxtemplates</strong> by <a href="http://www.aspxtemplates.com"></a></p>
+							<p>&copy; Copyright <strong>Asian Culinary Institute Singapore</strong> </p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div><!-- footer-bottom -->
 	</footer>
-    <!--/#footer-->
     <!-- Script -->
     <script src="js/jquery.js" type="text/javascript"></script>
     <script src="js/bootstrap.js" type="text/javascript"></script>

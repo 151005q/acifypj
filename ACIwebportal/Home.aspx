@@ -135,7 +135,7 @@
                 <div class="row">
                     <div class="intro-message col-sm-6">
                         <h1>Asian Culinary Institute Singapore</h1>
-                        
+
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
                             <li><a href="https://twitter.com/" class="btn btn-success btn-lg"><i class="fa fa-twitter fa-fw"></i><span class="network-name">Twitter</span></a> </li>
@@ -154,70 +154,62 @@
                     <div class="col-sm-8 col-sm-offset-2">
                         <h1>
                             <span>Our</span> Events</h1>
-                      
+
                     </div>
                 </div>
                 <div class="row text-center">
                     <div class="col-sm-4 service">
                         <div class="service-content">
-                             
-                        <asp:Image class="img-responsive" ID="Image3" ImageUrl="~/images/event1.jpg" runat="server" Height="140" Width="280"/>
+
+                            <asp:Image class="img-responsive" ID="Image3" ImageUrl="~/images/event1.jpg" runat="server" Height="140" Width="280" />
                         </div>
                     </div>
                     <div class="col-sm-6 service">
                         <div class="service-content">
-                            <h2>
-                            September One Day Pastry Course</h2>
-                            <h4>
-                            15 Sep 2017</h4>
+                            <h2>September One Day Pastry Course</h2>
+                            <h4>15 Sep 2017</h4>
                             <p>
-                              
                                 Have you always wanted to try your hand at pastry making? This course provides you with the opportunity for a hands-on session with our pastry chef to learn... <strong><a href="#">Read More</a></strong>
                             </p>
                         </div>
                     </div>
-                    
+
                 </div>
-                 <div class="row text-center">
+                <div class="row text-center">
                     <div class="col-sm-4 service">
                         <div class="service-content">
-                           <asp:Image class="img-responsive" ID="Image1" ImageUrl="~/images/event2.jpg" runat="server" Height="140" Width="280" />
+                            <asp:Image class="img-responsive" ID="Image1" ImageUrl="~/images/event2.jpg" runat="server" Height="140" Width="280" />
                         </div>
                     </div>
                     <div class="col-sm-6 service">
                         <div class="service-content">
-                           <h2>
-                            ACI Open House</h2>
-                            <h4>
-                            15 Sep 2017</h4>
+                            <h2>ACI Open House</h2>
+                            <h4>15 Sep 2017</h4>
                             <p>
                                 ACI will be having an Open House on 3 Dec 2016, Saturday. Join us for the exciting activities happening on that day. Hurry and grab your slots for the sessi... <strong><a href="#">Read More</a></strong>
-                                 </p>
+                            </p>
                         </div>
                     </div>
-                    
+
                 </div>
-                 <div class="row text-center">
+                <div class="row text-center">
                     <div class="col-sm-4 service">
                         <div class="service-content">
-                            <asp:Image class="img-responsive" ID="Image2" ImageUrl="~/images/event3.jpg" runat="server" Height="140" Width="280"/>
+                            <asp:Image class="img-responsive" ID="Image2" ImageUrl="~/images/event3.jpg" runat="server" Height="140" Width="280" />
                         </div>
                     </div>
                     <div class="col-sm-6 service">
                         <div class="service-content">
-                            <h2>
-                            Culinary Star Quest 2017</h2>
-                            <h4>
-                            15 Sep 2017</h4>
+                            <h2>Culinary Star Quest 2017</h2>
+                            <h4>15 Sep 2017</h4>
                             <p>
-                                 
                                 Culinary Star Quest competition is to attract aspiring talent who have the passion in culinary and are keen to join the F&B Industry. This is a platform to c... <strong><a href="#">Read More</a></strong>
 
 
-                                </p>
+                            </p>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
             <div class="height">
@@ -255,7 +247,7 @@
                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Previous</span> </a><a class="right carousel-control" href="#myCarousel" role="button"
                     data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only">Next</span> </a>
         </div>
-       
+
         <div class="container padding-bottom">
             <div class="row section-title text-center">
                 <div class="col-sm-8 col-sm-offset-2">
@@ -266,76 +258,78 @@
             <div class="text-cente">
                 <div class="col-sm-6 col-md-3 service">
                     <div class="service-content">
-                       <asp:Image class="img-responsive" ID="Image4" ImageUrl="~/images/up1.jpg" runat="server" Height="140" Width="280"/>
-                        <h2>
-                            WSQ Follow Food & Beverage Safety and Hygiene Policies and Procedures</h2>
+                        <asp:Image class="img-responsive" ID="Image4" ImageUrl="~/images/up1.jpg" runat="server" Height="140" Width="280" />
+                        <h2>WSQ Follow Food & Beverage Safety and Hygiene Policies and Procedures</h2>
                         <h4>10 Jun 2017</h4>
                         <p>
-                           This programme is a SSG and NEA accredited programme.  Participants will learn the basic of food safety and hygiene knowledge required to be a certified... <strong><a href="#">Read More</a></strong></p>
+                            This programme is a SSG and NEA accredited programme.  Participants will learn the basic of food safety and hygiene knowledge required to be a certified... <strong><a href="#">Read More</a></strong>
+                        </p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-3 service">
-                     <div class="service-content">
-                       <asp:Image class="img-responsive" ID="Image5" ImageUrl="~/images/up2.jpg" runat="server" Height="140" Width="280"/>
-                        <h2>
-                            WSQ Follow Food & Beverage Safety and Hygiene Policies and Procedures (Blended Learning)</h2>
+                    <div class="service-content">
+                        <asp:Image class="img-responsive" ID="Image5" ImageUrl="~/images/up2.jpg" runat="server" Height="140" Width="280" />
+                        <h2>WSQ Follow Food & Beverage Safety and Hygiene Policies and Procedures (Blended Learning)</h2>
                         <h4>25 July 2017</h4>
                         <p>
-                           This programme is a SSG and NEA accredited programme.  Participants will learn the basic of food safety and hygiene knowledge required to be a certified... <strong><a href="#">Read More</a></strong></p>
+                            This programme is a SSG and NEA accredited programme.  Participants will learn the basic of food safety and hygiene knowledge required to be a certified... <strong><a href="#">Read More</a></strong>
+                        </p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-3 service">
                     <div class="service-content">
-                       <asp:Image class="img-responsive" ID="Image6" ImageUrl="~/images/up3.jpg" runat="server" Height="140" Width="280"/>
-                        <h2>
-                            SkillsFuture for Digital Workplace (F&B & Hospitality)</h2>
+                        <asp:Image class="img-responsive" ID="Image6" ImageUrl="~/images/up3.jpg" runat="server" Height="140" Width="280" />
+                        <h2>SkillsFuture for Digital Workplace (F&B & Hospitality)</h2>
                         <h4>29 Aug 2017</h4>
                         <p>
-                           This programme is a SSG and NEA accredited programme.  Participants will learn the basic of food safety and hygiene knowledge required to be a certified... <strong><a href="#">Read More</a></strong></p>
+                            This programme is a SSG and NEA accredited programme.  Participants will learn the basic of food safety and hygiene knowledge required to be a certified... <strong><a href="#">Read More</a></strong>
+                        </p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-3 service">
                     <div class="service-content">
-                       <asp:Image class="img-responsive" ID="Image7" ImageUrl="~/images/up4.jpg" runat="server" Height="140" Width="280"/>
-                        <h2>
-                            WSQ Apply Food Safety Management Systems for Food Service Establishments</h2>
+                        <asp:Image class="img-responsive" ID="Image7" ImageUrl="~/images/up4.jpg" runat="server" Height="140" Width="280" />
+                        <h2>WSQ Apply Food Safety Management Systems for Food Service Establishments</h2>
                         <h4>19 Sep 2017</h4>
                         <p>
-                           This programme is a SSG and NEA accredited programme.  Participants will learn the basic of food safety and hygiene knowledge required to be a certified... <strong><a href="#">Read More</a></strong></p>
+                            This programme is a SSG and NEA accredited programme.  Participants will learn the basic of food safety and hygiene knowledge required to be a certified... <strong><a href="#">Read More</a></strong>
+                        </p>
                     </div>
                 </div>
-            </div>          
-        </div>
-
-          <div class="container padding-bottom">
-        <div class="row section-title text-center">
-            <div class="col-sm-8 col-sm-offset-2">
-                <h1>
-                    <span>Our</span> Facilities</h1>
-                <p>
-                    ACI's Kitchens are equipped with the state-of-the-art equipment and a layout that promotes efficiency and productivity through seamless preparations and cooking of food items... <strong><a href="#">Read More</a></strong></p>
             </div>
         </div>
-        <div class="text-center our-clients">
-            <ul>
-               <li><a href="#"> <asp:Image class="img-responsive" ID="Image8" ImageUrl="~/images/fac1.jpg" runat="server"  Height="160"/></a></li>
-                <li><a href="#">
-                   <asp:Image class="img-responsive" ID="Image9" ImageUrl="~/images/fac2.jpg" runat="server"  Height="160"/></a></li>
-                <li><a href="#">
-                    <asp:Image class="img-responsive" ID="Image10" ImageUrl="~/images/fac3.jpg" runat="server"  Height="160"/></a></li>
-                <li><a href="#">
-                    <asp:Image class="img-responsive" ID="Image11" ImageUrl="~/images/fac4.jpg" runat="server"  Height="160"/></a></li>
-                  <li><a href="#">
-                    <asp:Image class="img-responsive" ID="Image12" ImageUrl="~/images/fac5.jpg" runat="server"  Height="160"/></a></li>
-              
-            </ul>
+
+        <div class="container padding-bottom">
+            <div class="row section-title text-center">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <h1>
+                        <span>Our</span> Facilities</h1>
+                    <p>
+                        ACI's Kitchens are equipped with the state-of-the-art equipment and a layout that promotes efficiency and productivity through seamless preparations and cooking of food items... <strong><a href="#">Read More</a></strong>
+                    </p>
+                </div>
+            </div>
+            <div class="text-center our-clients">
+                <ul>
+                    <li><a href="#">
+                        <asp:Image class="img-responsive" ID="Image8" ImageUrl="~/images/fac1.jpg" runat="server" Height="160" /></a></li>
+                    <li><a href="#">
+                        <asp:Image class="img-responsive" ID="Image9" ImageUrl="~/images/fac2.jpg" runat="server" Height="160" /></a></li>
+                    <li><a href="#">
+                        <asp:Image class="img-responsive" ID="Image10" ImageUrl="~/images/fac3.jpg" runat="server" Height="160" /></a></li>
+                    <li><a href="#">
+                        <asp:Image class="img-responsive" ID="Image11" ImageUrl="~/images/fac4.jpg" runat="server" Height="160" /></a></li>
+                    <li><a href="#">
+                        <asp:Image class="img-responsive" ID="Image12" ImageUrl="~/images/fac5.jpg" runat="server" Height="160" /></a></li>
+
+                </ul>
+            </div>
         </div>
-    </div>
 
 
 
         <!-- footer -->
-         <footer id="footer">
+        <footer id="footer">
 		<!-- footer-widget-wrapper -->
 		<div class="footer-widget-wrapper">
 			<div class="container">
