@@ -34,6 +34,7 @@
     <div class="collapse navbar-collapse" id="myNav">
     <ul class="nav navbar-nav">
     <li class="active"><a href="Home.aspx">Home</a></li>
+      <li><a href="Events.aspx">Events</a></li>
         <li class="dropdown">
     <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span></a>
     <ul class="dropdown-menu">
@@ -154,34 +155,30 @@
                     <div class="col-sm-8 col-sm-offset-2">
                         <h1>
                             <span>Our</span> Events</h1>
-
                     </div>
                 </div>
                 <div class="row text-center">
                     <div class="col-sm-6 service">
                         <div class="service-content">
-                            <a href="Events.aspx">
+                            <a href="EventDetails.aspx">
                                 <asp:Image class="img-responsive img-thumbnail" ID="Image3" ImageUrl="~/images/event1.jpg" runat="server" Height="240" Width="630" />
                             </a>
                         </div>
                     </div>
                     <div class="col-sm-6 service">
                         <div class="service-content">
-
                             <h2>September One Day Pastry Course</h2>
                             <h4>15 Sep 2017</h4>
                             <p>
-                                Have you always wanted to try your hand at pastry making? This course provides you with the opportunity for a hands-on session with our pastry chef to learn... <strong><a href="Events.aspx">Read More</a></strong>
+                                Have you always wanted to try your hand at pastry making? This course provides you with the opportunity for a hands-on session with our pastry chef to learn... <strong><a href="EventDetails.aspx">Read More</a></strong>
                             </p>
-
                         </div>
                     </div>
-
                 </div>
                 <div class="row text-center">
                     <div class="col-sm-6 service">
                         <div class="service-content">
-                            <a href="Events.aspx">
+                            <a href="EventDetails.aspx">
                                 <asp:Image class="img-responsive img-thumbnail" ID="Image1" ImageUrl="~/images/event2.jpg" runat="server" Height="240" Width="630" /></a>
                         </div>
                     </div>
@@ -190,16 +187,15 @@
                             <h2>ACI Open House</h2>
                             <h4>15 Sep 2017</h4>
                             <p>
-                                ACI will be having an Open House on 3 Dec 2016, Saturday. Join us for the exciting activities happening on that day. Hurry and grab your slots for the sessi... <strong><a href="Events.aspx">Read More</a></strong>
+                                ACI will be having an Open House on 3 Dec 2016, Saturday. Join us for the exciting activities happening on that day. Hurry and grab your slots for the sessi... <strong><a href="EventDetails.aspx">Read More</a></strong>
                             </p>
                         </div>
                     </div>
-
                 </div>
                 <div class="row text-center">
                     <div class="col-sm-6 service">
                         <div class="service-content">
-                            <a href="Events.aspx">
+                            <a href="EventDetails.aspx">
                                 <asp:Image class="img-responsive img-thumbnail" ID="Image2" ImageUrl="~/images/event3.jpg" runat="server" Height="240" Width="630" /></a>
                         </div>
                     </div>
@@ -208,9 +204,7 @@
                             <h2>Culinary Star Quest 2017</h2>
                             <h4>15 Sep 2017</h4>
                             <p>
-                                Culinary Star Quest competition is to attract aspiring talent who have the passion in culinary and are keen to join the F&B Industry. This is a platform to c... <strong><a href="Events.aspx">Read More</a></strong>
-
-
+                                Culinary Star Quest competition is to attract aspiring talent who have the passion in culinary and are keen to join the F&B Industry. This is a platform to c... <strong><a href="EventDetails.aspx">Read More</a></strong>
                             </p>
                         </div>
                     </div>
@@ -407,6 +401,7 @@
 					<div class="col-sm-8">
 						<ul class="footer-menu list-inline">
 							<li class="active"><a href="Home.aspx">Home</a></li>
+                               <li><a href="Events.aspx">Events</a></li>
                             <li ><a href="Courses.aspx">Courses</a></li>
                             <li ><a href="AboutUs.aspx">About Us</a></li>
                             <li ><a href="Training.aspx">Training</a></li>

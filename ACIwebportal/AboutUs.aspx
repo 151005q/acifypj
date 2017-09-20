@@ -34,6 +34,7 @@
     <div class="collapse navbar-collapse" id="myNav">
      <ul class="nav navbar-nav">
     <li><a href="Home.aspx">Home</a></li>
+         <li><a href="Events.aspx">Events</a></li>
         <li class="dropdown active">
     <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span></a>
     <ul class="dropdown-menu">
@@ -818,6 +819,7 @@ However, if there are skills & knowledge gaps, we will recommend you relevant WS
 					<div class="col-sm-8">
 						<ul class="footer-menu list-inline">
 							<li ><a href="Home.aspx">Home</a></li>
+                               <li><a href="Events.aspx">Events</a></li>
                             <li ><a href="Courses.aspx">Courses</a></li>
                             <li class="active" ><a href="AboutUs.aspx">About Us</a></li>
                             <li ><a href="Training.aspx">Training</a></li>

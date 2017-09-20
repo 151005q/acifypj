@@ -95,6 +95,55 @@ item,
             color: #000 !important;
         }
 
+.intro-headerEvents {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url('../images/eventbig.jpg') no-repeat center center;
+    background-size: cover;
+}
+.intro-headerEventDetails {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url('../images/eventdetailsbig.jpg') no-repeat center center;
+    background-size: cover;
+}
+.intro-headerAdmission {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url('../images/admissionbig.jpg') no-repeat center center;
+    background-size: cover;
+}
+.intro-headerMedia {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url('../images/mediabig.jpg') no-repeat center center;
+    background-size: cover;
+}
+.intro-headerServices {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url('../images/servicesbig.jpg') no-repeat center center;
+    background-size: cover;
+}
+ .intro-headerTraining {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url('../images/trainingbig.JPG') no-repeat center center;
+    background-size: cover;
+}
+
 .intro-headerCourses {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
