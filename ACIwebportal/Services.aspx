@@ -35,6 +35,7 @@
                 <div class="collapse navbar-collapse" id="myNav">
                     <ul class="nav navbar-nav">
                         <li><a href="Home.aspx">Home</a></li>
+                        <li><a href="Events.aspx">Events</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span></a>
                             <ul class="dropdown-menu">
@@ -130,7 +131,7 @@
             </div>
         </div>
         <!-- Landing Page -->
-        <div class="intro-header">
+        <div class="intro-headerServices">
             <!-- change this image in custom.css-->
             <div class="container">
                 <div class="row">
@@ -343,11 +344,12 @@
 				<div class="row">				
 					<div class="col-sm-8">
 						<ul class="footer-menu list-inline">
-							<li class="active"><a href="Home.aspx">Home</a></li>
+							<li><a href="Home.aspx">Home</a></li>
+                            <li><a href="Events.aspx">Events</a></li>
                             <li ><a href="Courses.aspx">Courses</a></li>
                             <li ><a href="AboutUs.aspx">About Us</a></li>
                             <li ><a href="Training.aspx">Training</a></li>
-                            <li ><a href="Services.aspx">Services</a></li>
+                            <li class="active"><a href="Services.aspx">Services</a></li>
                             <li ><a href="Admission.aspx">Admission</a></li>
                             <li ><a href="Media.aspx">Media</a></li>       
 						</ul>
