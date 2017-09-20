@@ -88,7 +88,7 @@ item,
     .navbar a {
 
 
-        color: #464646 !important;
+        color: #000 !important;
     }
 
         .navbar a:hover {
@@ -162,10 +162,10 @@ item,
     border-bottom: 1px solid rgba(0,0,0,0.2);
     border-top-color: #000000;
 }
-
 .intro-message > h3 {
     color: #A40000;
 }
+
 
 .modal-content {
     border-style: none;
@@ -191,9 +191,6 @@ item,
     border-color: #669999;
 }
 
-
-
-
 .section-title {
     padding-bottom: 70px;
     padding-top: 30px;
@@ -205,7 +202,7 @@ item,
         margin-bottom: 24px;
         padding-bottom: 22px;
         text-transform: capitalize;
-        color: #009900;
+        color: blue;
     }
 
         .section-title h1 span {
@@ -234,6 +231,9 @@ item,
         }
 
 
+
+
+
 /*========================
 ====== Our Services ======
 ==========================*/
@@ -241,6 +241,7 @@ item,
 #our-services .col-sm-6.col-md-3 {
     border-right: 1px solid #e2e2e2;
     position: relative;
+  
 }
 
     #our-services .col-sm-6.col-md-3:nth-of-type(4n) {
@@ -259,7 +260,7 @@ item,
             width: 5px;
             height: 5px;
             z-index: 99;
-            border-radius: 50%;
+            border-radius: 50%;       
         }
 
 .service-content {
@@ -269,7 +270,7 @@ item,
 
     .service-content i {
         font-size: 36px;
-        color: #009933;
+        color: #838383;
     }
 
     .service-content h2 {
@@ -422,7 +423,7 @@ item,
         position: relative;
         margin-bottom: 30px;
         margin: 3px 0 30px;
-        color: #009900;
+        color: blue;
     }
 
         .footer-widget h1:before,
@@ -436,7 +437,7 @@ item,
             right: 0;
             width: 40%;
             height: 1px;
-            background: #009900;
+            background: blue;
         }
 
         .footer-widget h1:after {

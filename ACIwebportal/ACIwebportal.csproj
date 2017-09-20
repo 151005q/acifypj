@@ -59,11 +59,13 @@
   <ItemGroup>
     <Content Include="AboutUs.aspx" />
     <Content Include="Admission.aspx" />
+    <Content Include="css\bootstrap.css" />
     <Content Include="Courses.aspx" />
     <Content Include="CoursesCustomisedCourses.aspx" />
     <Content Include="CoursesFullQualification.aspx" />
     <Content Include="CoursesShortCourses.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="Events.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -92,7 +94,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\custom.css" />
     <Content Include="css\font-awesome.min.css" />
@@ -224,6 +225,13 @@
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Events.aspx.cs">
+      <DependentUpon>Events.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Events.aspx.designer.cs">
+      <DependentUpon>Events.aspx</DependentUpon>
     </Compile>
     <Compile Include="Media.aspx.cs">
       <DependentUpon>Media.aspx</DependentUpon>
