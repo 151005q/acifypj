@@ -102,9 +102,18 @@
             </div>
         </div>
         <br />
-        <ul class="breadcrumb">
-            <li class="active">Training</li>
-        </ul>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul class="breadcrumb">
+                        <li><a href="#">Home</a></li>
+                        <li class="active">Media</li>
+                    </ul>
+                    <br />
+                </div>
+            </div>
+
+        </div>
 
         <div class="row section-title text-center">
             <div class="col-sm-8 col-sm-offset-2">

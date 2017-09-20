@@ -150,7 +150,7 @@
                 <div class="col-sm-12">
                     <ul class="breadcrumb">
                         <li><a href="#">Home</a></li>
-                        <li class="active">Courses</li>
+                        <li class="active">Media</li>
                     </ul>
                     <br />
                 </div>
@@ -173,7 +173,7 @@
                             <div class="row text-center">
 
                                 <div class="col-sm-2 col-md-2">
-                                    <asp:Image class="img-responsive" ImageUrl="~/images/photogallery1.jpg" ID="Image1" runat="server" />
+                                    <asp:Image class="img-responsive" Width="150px" Height="150px" ImageUrl="~/images/photogallery1.jpg" ID="Image1" runat="server" />
                                 </div>
                                 <div class="col-sm-4 col-md-4">
                                     <p>08 July 2017</p>
