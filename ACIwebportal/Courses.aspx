@@ -157,13 +157,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-4">
-                    <a href="CoursesFullQualification.aspx">    <asp:Image class="img-responsive" ID="Image2" ImageUrl="~/images/Course1.PNG" runat="server" Height="240" /> </a>                    
+                    <a href="CoursesFullQualification.aspx">    <asp:Image class="img-responsive img-thumbnail" ID="Image2" ImageUrl="~/images/Course1.PNG" runat="server" Height="240" /> </a>                    
                 </div>
                 <div class="col-sm-4">
-                    <a href="CoursesShortCourses.aspx">    <asp:Image class="img-responsive" ID="Image1" ImageUrl="~/images/Course2.PNG" runat="server" Height="240" /> </a>                       
+                    <a href="CoursesShortCourses.aspx">    <asp:Image class="img-responsive img-thumbnail" ID="Image1" ImageUrl="~/images/Course2.PNG" runat="server" Height="240" /> </a>                       
                 </div>
                 <div class="col-sm-4">
-                     <a href="CoursesCustomisedCourses.aspx">  <asp:Image class="img-responsive" ID="Image3" ImageUrl="~/images/Course3.PNG" runat="server" Height="240" /></a>                       
+                     <a href="CoursesCustomisedCourses.aspx">  <asp:Image class="img-responsive img-thumbnail" ID="Image3" ImageUrl="~/images/Course3.PNG" runat="server" Height="240" /></a>                       
                 </div>
             </div>
         </div>
