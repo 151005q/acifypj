@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>FreshDesign</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="css/custom.css" rel="stylesheet" type="text/css" />
     <link rel="Shortcut Icon" href="images/favicon.ico" />
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
@@ -33,52 +33,52 @@
     </div>
     <div class="collapse navbar-collapse" id="myNav">
     <ul class="nav navbar-nav">
-    <li class="active"><a href="#">Home</a></li>
+    <li class="active"><a href="Home.aspx">Home</a></li>
         <li class="dropdown">
     <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span></a>
     <ul class="dropdown-menu">
-    <li class="active"><a href="#">Our vision, Mission, Values</a></li>
-    <li><a href="#">Facilities</a></li>
-    <li><a href="#">ACI distinguished chefs advisory panel</a></li>
-    <li><a href="#">Our partnets</a></li>
-        <li><a href="#">FAQs</a></li>
+    <li><a href="AboutUs.aspx">Our vision, Mission, Values</a></li>
+    <li><a href="AboutUs.aspx">Facilities</a></li>
+    <li><a href="AboutUs.aspx">ACI Distinguished Chefs Advisory Panel</a></li>
+    <li><a href="AboutUs.aspx">Our partners</a></li>
+        <li><a href="AboutUs.aspx">FAQs</a></li>
     </ul>
             </li>
     <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses<span class="caret"></span></a>
+    <a href="Courses.aspx" class="dropdown-toggle" data-toggle="dropdown">Courses<span class="caret"></span></a>
     <ul class="dropdown-menu">
-    <li class="active"><a href="#">Full Qualification</a></li>
-    <li><a href="#">Short</a></li>
-    <li><a href="#">Customised Courses</a></li>
+    <li><a href="CoursesFullQualification.aspx">Full Qualification</a></li>
+    <li><a href="CoursesShortCourses.aspx">Short</a></li>
+    <li><a href="CoursesCustomisedCourses.aspx">Customised Courses</a></li>
     </ul>
     </li>
          <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Training<span class="caret"></span></a>
+    <a href="Training.aspx" class="dropdown-toggle" data-toggle="dropdown">Training<span class="caret"></span></a>
     <ul class="dropdown-menu">
-    <li class="active"><a href="#">Assessment-Only Pathway</a></li>
+    <li ><a href="Training.aspx">Assessment-Only Pathway</a></li>
     </ul>
     </li>
         <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
+    <a href="Services.aspx" class="dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
     <ul class="dropdown-menu">
-    <li class="active"><a href="#">Career services</a></li>
-         <li><a href="#">Project & Consultancy services</a></li>
-         <li><a href="#">Job vacancies listing</a></li>
+    <li><a href="Services.aspx">Career services</a></li>
+         <li><a href="Services.aspx">Project & Consultancy services</a></li>
+         <li><a href="Services.aspx">Job vacancies listing</a></li>
     </ul>
             </li>
               <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admission<span class="caret"></span></a>
+    <a href="Admission.aspx" class="dropdown-toggle" data-toggle="dropdown">Admission<span class="caret"></span></a>
     <ul class="dropdown-menu">
-    <li class="active"><a href="#">Online registeration</a></li>
+    <li><a href="Admission.aspx">Online registeration</a></li>
          
     </ul>
     </li>
          <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Media<span class="caret"></span></a>
+    <a href="Media.aspx" class="dropdown-toggle" data-toggle="dropdown">Media<span class="caret"></span></a>
     <ul class="dropdown-menu">
-    <li class="active"><a href="#">Photo gallery</a></li>
-         <li><a href="#">Videos</a></li>
-         <li><a href="#">Press Releases</a></li>
+    <li ><a href="Media.aspx">Photo gallery</a></li>
+         <li><a href="Media.aspx">Videos</a></li>
+         <li><a href="Media.aspx">Press Releases</a></li>
     </ul>
             </li>
    
@@ -134,8 +134,8 @@
             <div class="container">
                 <div class="row">
                     <div class="intro-message col-sm-6">
-                        <h1>Asian Culinary Institute Singapore</h1>
-
+                        <h1>asian culinary institute</h1>
+                        <h1 style="color: blue">Singapore</h1>
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
                             <li><a href="https://twitter.com/" class="btn btn-success btn-lg"><i class="fa fa-twitter fa-fw"></i><span class="network-name">Twitter</span></a> </li>
@@ -158,27 +158,31 @@
                     </div>
                 </div>
                 <div class="row text-center">
-                    <div class="col-sm-4 service">
+                    <div class="col-sm-6 service">
                         <div class="service-content">
-
-                            <asp:Image class="img-responsive" ID="Image3" ImageUrl="~/images/event1.jpg" runat="server" Height="140" Width="280" />
+                            <a href="Events.aspx">
+                                <asp:Image class="img-responsive img-thumbnail" ID="Image3" ImageUrl="~/images/event1.jpg" runat="server" Height="240" Width="630" />
+                            </a>
                         </div>
                     </div>
                     <div class="col-sm-6 service">
                         <div class="service-content">
+
                             <h2>September One Day Pastry Course</h2>
                             <h4>15 Sep 2017</h4>
                             <p>
-                                Have you always wanted to try your hand at pastry making? This course provides you with the opportunity for a hands-on session with our pastry chef to learn... <strong><a href="#">Read More</a></strong>
+                                Have you always wanted to try your hand at pastry making? This course provides you with the opportunity for a hands-on session with our pastry chef to learn... <strong><a href="Events.aspx">Read More</a></strong>
                             </p>
+
                         </div>
                     </div>
 
                 </div>
                 <div class="row text-center">
-                    <div class="col-sm-4 service">
+                    <div class="col-sm-6 service">
                         <div class="service-content">
-                            <asp:Image class="img-responsive" ID="Image1" ImageUrl="~/images/event2.jpg" runat="server" Height="140" Width="280" />
+                            <a href="Events.aspx">
+                                <asp:Image class="img-responsive img-thumbnail" ID="Image1" ImageUrl="~/images/event2.jpg" runat="server" Height="240" Width="630" /></a>
                         </div>
                     </div>
                     <div class="col-sm-6 service">
@@ -186,16 +190,17 @@
                             <h2>ACI Open House</h2>
                             <h4>15 Sep 2017</h4>
                             <p>
-                                ACI will be having an Open House on 3 Dec 2016, Saturday. Join us for the exciting activities happening on that day. Hurry and grab your slots for the sessi... <strong><a href="#">Read More</a></strong>
+                                ACI will be having an Open House on 3 Dec 2016, Saturday. Join us for the exciting activities happening on that day. Hurry and grab your slots for the sessi... <strong><a href="Events.aspx">Read More</a></strong>
                             </p>
                         </div>
                     </div>
 
                 </div>
                 <div class="row text-center">
-                    <div class="col-sm-4 service">
+                    <div class="col-sm-6 service">
                         <div class="service-content">
-                            <asp:Image class="img-responsive" ID="Image2" ImageUrl="~/images/event3.jpg" runat="server" Height="140" Width="280" />
+                            <a href="Events.aspx">
+                                <asp:Image class="img-responsive img-thumbnail" ID="Image2" ImageUrl="~/images/event3.jpg" runat="server" Height="240" Width="630" /></a>
                         </div>
                     </div>
                     <div class="col-sm-6 service">
@@ -203,7 +208,7 @@
                             <h2>Culinary Star Quest 2017</h2>
                             <h4>15 Sep 2017</h4>
                             <p>
-                                Culinary Star Quest competition is to attract aspiring talent who have the passion in culinary and are keen to join the F&B Industry. This is a platform to c... <strong><a href="#">Read More</a></strong>
+                                Culinary Star Quest competition is to attract aspiring talent who have the passion in culinary and are keen to join the F&B Industry. This is a platform to c... <strong><a href="Events.aspx">Read More</a></strong>
 
 
                             </p>
@@ -211,8 +216,6 @@
                     </div>
 
                 </div>
-            </div>
-            <div class="height">
             </div>
         </div>
         <!-- /# Our Services -->
@@ -258,41 +261,45 @@
             <div class="text-cente">
                 <div class="col-sm-6 col-md-3 service">
                     <div class="service-content">
-                        <asp:Image class="img-responsive" ID="Image4" ImageUrl="~/images/up1.jpg" runat="server" Height="140" Width="280" />
+                        <a href="Courses.aspx">
+                            <asp:Image class="img-responsive img-thumbnail" ID="Image4" ImageUrl="~/images/up1.jpg" runat="server" Height="140" Width="280" /></a>
                         <h2>WSQ Follow Food & Beverage Safety and Hygiene Policies and Procedures</h2>
                         <h4>10 Jun 2017</h4>
                         <p>
-                            This programme is a SSG and NEA accredited programme.  Participants will learn the basic of food safety and hygiene knowledge required to be a certified... <strong><a href="#">Read More</a></strong>
+                            This programme is a SSG and NEA accredited programme.  Participants will learn the basic of food safety and hygiene knowledge required to be a certified... <strong><a href="Courses.aspx">Read More</a></strong>
                         </p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-3 service">
                     <div class="service-content">
-                        <asp:Image class="img-responsive" ID="Image5" ImageUrl="~/images/up2.jpg" runat="server" Height="140" Width="280" />
+                        <a href="Courses.aspx">
+                            <asp:Image class="img-responsive img-thumbnail" ID="Image5" ImageUrl="~/images/up2.jpg" runat="server" Height="140" Width="280" /></a>
                         <h2>WSQ Follow Food & Beverage Safety and Hygiene Policies and Procedures (Blended Learning)</h2>
                         <h4>25 July 2017</h4>
                         <p>
-                            This programme is a SSG and NEA accredited programme.  Participants will learn the basic of food safety and hygiene knowledge required to be a certified... <strong><a href="#">Read More</a></strong>
+                            This programme is a SSG and NEA accredited programme.  Participants will learn the basic of food safety and hygiene knowledge required to be a certified... <strong><a href="Courses.aspx">Read More</a></strong>
                         </p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-3 service">
                     <div class="service-content">
-                        <asp:Image class="img-responsive" ID="Image6" ImageUrl="~/images/up3.jpg" runat="server" Height="140" Width="280" />
+                        <a href="Courses.aspx">
+                            <asp:Image class="img-responsive img-thumbnail" ID="Image6" ImageUrl="~/images/up3.jpg" runat="server" Height="140" Width="280" /></a>
                         <h2>SkillsFuture for Digital Workplace (F&B & Hospitality)</h2>
                         <h4>29 Aug 2017</h4>
                         <p>
-                            This programme is a SSG and NEA accredited programme.  Participants will learn the basic of food safety and hygiene knowledge required to be a certified... <strong><a href="#">Read More</a></strong>
+                            This programme is a SSG and NEA accredited programme.  Participants will learn the basic of food safety and hygiene knowledge required to be a certified... <strong><a href="Courses.aspx">Read More</a></strong>
                         </p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-3 service">
                     <div class="service-content">
-                        <asp:Image class="img-responsive" ID="Image7" ImageUrl="~/images/up4.jpg" runat="server" Height="140" Width="280" />
+                        <a href="Courses.aspx">
+                            <asp:Image class="img-responsive img-thumbnail" ID="Image7" ImageUrl="~/images/up4.jpg" runat="server" Height="140" Width="280" /></a>
                         <h2>WSQ Apply Food Safety Management Systems for Food Service Establishments</h2>
                         <h4>19 Sep 2017</h4>
                         <p>
-                            This programme is a SSG and NEA accredited programme.  Participants will learn the basic of food safety and hygiene knowledge required to be a certified... <strong><a href="#">Read More</a></strong>
+                            This programme is a SSG and NEA accredited programme.  Participants will learn the basic of food safety and hygiene knowledge required to be a certified... <strong><a href="Courses.aspx">Read More</a></strong>
                         </p>
                     </div>
                 </div>
@@ -309,23 +316,33 @@
                     </p>
                 </div>
             </div>
-            <div class="text-center our-clients">
-                <ul>
-                    <li><a href="#">
-                        <asp:Image class="img-responsive" ID="Image8" ImageUrl="~/images/fac1.jpg" runat="server" Height="160" /></a></li>
-                    <li><a href="#">
-                        <asp:Image class="img-responsive" ID="Image9" ImageUrl="~/images/fac2.jpg" runat="server" Height="160" /></a></li>
-                    <li><a href="#">
-                        <asp:Image class="img-responsive" ID="Image10" ImageUrl="~/images/fac3.jpg" runat="server" Height="160" /></a></li>
-                    <li><a href="#">
-                        <asp:Image class="img-responsive" ID="Image11" ImageUrl="~/images/fac4.jpg" runat="server" Height="160" /></a></li>
-                    <li><a href="#">
-                        <asp:Image class="img-responsive" ID="Image12" ImageUrl="~/images/fac5.jpg" runat="server" Height="160" /></a></li>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="AboutUs.aspx">
+                        <asp:Image class="img-responsive img-thumbnail" ID="Image8" ImageUrl="~/images/fac1.jpg" runat="server" Height="160" Width="400" />
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="AboutUs.aspx">
+                        <asp:Image class="img-responsive img-thumbnail" ID="Image9" ImageUrl="~/images/fac2.jpg" runat="server" Height="160" Width="400" /></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="AboutUs.aspx">
+                        <asp:Image class="img-responsive img-thumbnail" ID="Image10" ImageUrl="~/images/fac3.jpg" runat="server" Height="160" Width="400" /></a>
+                </div>
 
-                </ul>
+                <div class="col-sm-4">
+                    <a href="AboutUs.aspx">
+                        <asp:Image class="img-responsive img-thumbnail" ID="Image11" ImageUrl="~/images/fac4.jpg" runat="server" Height="160" Width="400" /></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="AboutUs.aspx">
+                        <asp:Image class="img-responsive img-thumbnail" ID="Image12" ImageUrl="~/images/fac5.jpg" runat="server" Height="160" Width="400" /></a>
+                </div>
+
             </div>
         </div>
-
+        <br />
 
 
         <!-- footer -->
@@ -339,7 +356,7 @@
 					<div class="col-md-3 col-sm-6">
 						<div class="footer-widget text-widget">
 							<a href="index.html" class="footer-logo"> <img src="images/ACI_logo.png" class="img-responsive" /></a>
-							<p>A web template system uses a template processor to combine web templates to form finished web pages, possibly using some data source to customize the pages or present a large amount of content on similar-looking pages.</p>
+							<p>Asian Culinary Institute (ACI) Singapore is a joint collaboration between SkillsFuture Singapore (SSG) (Previously known as WDA) and Nanyang Polytechnic (NYP). We are appointed by SSG to be the Anchor Provider for Food & Beverage Services industry. ACI is also the Programme Manager for the SkillsFuture Earn and Learn Programme (Food Services).</p>
 							<ul class="social list-inline">
 								<li><a href="#"><i class="fa fa-skype"></i></a></li>
 								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -354,9 +371,9 @@
 					<div class="col-md-3 col-sm-6">
 						<div class="footer-widget contact-widget">
 							<h1><span>Contact</span> Info</h1>
-							<p><i class="fa fa-map-marker"></i><strong>Address: </strong>102580 Cloud Libra L <br>YP. HYD BANGLORE</p>
-							<p><i class="fa fa-phone"></i><strong>Phone: <a href="tel:+9687542521">+3 045 224 55 15</a></strong></p>
-							<p><i class="fa fa-envelope"></i><strong>E-mail: <a href="mailto:info@aspxtemplates.com">info@aspxtemplates.com</a></strong></p>
+							<p><i class="fa fa-map-marker"></i><strong>Address: </strong>11 Eunos Road 8, Lifelong Learning Institute #03-01 (Lift Lobby A), Singapore 408601</p>
+							<p><i class="fa fa-phone"></i><strong>Phone: <a href="tel:+656417 3318">+(65) 6417 3318 </a></strong></p>
+							<p><i class="fa fa-envelope"></i><strong>E-mail: <a href="mailto:info@aci.edu.sg">info@aci.edu.sg</a></strong></p>
 						</div>
 					</div><!-- footer-widget -->
 
@@ -389,54 +406,13 @@
 				<div class="row">				
 					<div class="col-sm-8">
 						<ul class="footer-menu list-inline">
-							<li class="active"><a href="#">Home</a></li>
-        <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span></a>
-    <ul class="dropdown-menu">
-    <li class="active"><a href="#">Our vision, Mission, Values</a></li>
-    <li><a href="#">Facilities</a></li>
-    <li><a href="#">ACI distinguished chefs advisory panel</a></li>
-    <li><a href="#">Our partnets</a></li>
-        <li><a href="#">FAQs</a></li>
-    </ul>
-            </li>
-    <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses<span class="caret"></span></a>
-    <ul class="dropdown-menu">
-    <li class="active"><a href="#">Full Qualification</a></li>
-    <li><a href="#">Short</a></li>
-    <li><a href="#">Customised Courses</a></li>
-    </ul>
-    </li>
-         <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Training<span class="caret"></span></a>
-    <ul class="dropdown-menu">
-    <li class="active"><a href="#">Assessment-Only Pathway</a></li>
-    </ul>
-    </li>
-        <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
-    <ul class="dropdown-menu">
-    <li class="active"><a href="#">Career services</a></li>
-         <li><a href="#">Project & Consultancy services</a></li>
-         <li><a href="#">Job vacancies listing</a></li>
-    </ul>
-            </li>
-              <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admission<span class="caret"></span></a>
-    <ul class="dropdown-menu">
-    <li class="active"><a href="#">Online registeration</a></li>
-         
-    </ul>
-    </li>
-         <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Media<span class="caret"></span></a>
-    <ul class="dropdown-menu">
-    <li class="active"><a href="#">Photo gallery</a></li>
-         <li><a href="#">Videos</a></li>
-         <li><a href="#">Press Releases</a></li>
-    </ul>
-            </li>
+							<li class="active"><a href="Home.aspx">Home</a></li>
+                            <li ><a href="Courses.aspx">Courses</a></li>
+                            <li ><a href="AboutUs.aspx">About Us</a></li>
+                            <li ><a href="Training.aspx">Training</a></li>
+                            <li ><a href="Services.aspx">Services</a></li>
+                            <li ><a href="Admission.aspx">Admission</a></li>
+                            <li ><a href="Media.aspx">Media</a></li>       
 						</ul>
 					</div>
 					<div class="col-sm-4">

@@ -32,53 +32,53 @@
     </button>
     </div>
     <div class="collapse navbar-collapse" id="myNav">
-    <ul class="nav navbar-nav">
-    <li class="active"><a href="#">Home</a></li>
+     <ul class="nav navbar-nav">
+    <li><a href="Home.aspx">Home</a></li>
         <li class="dropdown">
     <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span></a>
     <ul class="dropdown-menu">
-    <li class="active"><a href="#">Our vision, Mission, Values</a></li>
-    <li><a href="#">Facilities</a></li>
-    <li><a href="#">ACI distinguished chefs advisory panel</a></li>
-    <li><a href="#">Our partnets</a></li>
-        <li><a href="#">FAQs</a></li>
+    <li><a href="AboutUs.aspx">Our vision, Mission, Values</a></li>
+    <li><a href="AboutUs.aspx">Facilities</a></li>
+    <li><a href="AboutUs.aspx">ACI Distinguished Chefs Advisory Panel</a></li>
+    <li><a href="AboutUs.aspx">Our partners</a></li>
+        <li><a href="AboutUs.aspx">FAQs</a></li>
     </ul>
             </li>
-    <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses<span class="caret"></span></a>
+    <li class="dropdown active">
+    <a href="Courses.aspx" class="dropdown-toggle" data-toggle="dropdown">Courses<span class="caret"></span></a>
     <ul class="dropdown-menu">
-    <li class="active"><a href="#">Full Qualification</a></li>
-    <li><a href="#">Short</a></li>
-    <li><a href="#">Customised Courses</a></li>
+    <li><a href="CoursesFullQualification.aspx">Full Qualification</a></li>
+    <li><a href="CoursesShortCourses.aspx">Short</a></li>
+    <li><a href="CoursesCustomisedCourses.aspx">Customised Courses</a></li>
     </ul>
     </li>
          <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Training<span class="caret"></span></a>
+    <a href="Training.aspx" class="dropdown-toggle" data-toggle="dropdown">Training<span class="caret"></span></a>
     <ul class="dropdown-menu">
-    <li class="active"><a href="#">Assessment-Only Pathway</a></li>
+    <li ><a href="Training.aspx">Assessment-Only Pathway</a></li>
     </ul>
     </li>
         <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
+    <a href="Services.aspx" class="dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
     <ul class="dropdown-menu">
-    <li class="active"><a href="#">Career services</a></li>
-         <li><a href="#">Project & Consultancy services</a></li>
-         <li><a href="#">Job vacancies listing</a></li>
+    <li><a href="Services.aspx">Career services</a></li>
+         <li><a href="Services.aspx">Project & Consultancy services</a></li>
+         <li><a href="Services.aspx">Job vacancies listing</a></li>
     </ul>
             </li>
               <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admission<span class="caret"></span></a>
+    <a href="Admission.aspx" class="dropdown-toggle" data-toggle="dropdown">Admission<span class="caret"></span></a>
     <ul class="dropdown-menu">
-    <li class="active"><a href="#">Online registeration</a></li>
+    <li><a href="Admission.aspx">Online registeration</a></li>
          
     </ul>
     </li>
          <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Media<span class="caret"></span></a>
+    <a href="Media.aspx" class="dropdown-toggle" data-toggle="dropdown">Media<span class="caret"></span></a>
     <ul class="dropdown-menu">
-    <li class="active"><a href="#">Photo gallery</a></li>
-         <li><a href="#">Videos</a></li>
-         <li><a href="#">Press Releases</a></li>
+    <li ><a href="Media.aspx">Photo gallery</a></li>
+         <li><a href="Media.aspx">Videos</a></li>
+         <li><a href="Media.aspx">Press Releases</a></li>
     </ul>
             </li>
    
@@ -157,13 +157,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-4">
-                    <a href="CoursesFullQualification.aspx">    <asp:Image class="img-responsive" ID="Image2" ImageUrl="~/images/Course1.PNG" runat="server" Height="240" /> </a>                    
+                    <a href="CoursesFullQualification.aspx">    <asp:Image class="img-responsive img-thumbnail" ID="Image2" ImageUrl="~/images/Course1.PNG" runat="server" Height="240" /> </a>                    
                 </div>
                 <div class="col-sm-4">
-                    <a href="CoursesShortCourses.aspx">    <asp:Image class="img-responsive" ID="Image1" ImageUrl="~/images/Course2.PNG" runat="server" Height="240" /> </a>                       
+                    <a href="CoursesShortCourses.aspx">    <asp:Image class="img-responsive img-thumbnail" ID="Image1" ImageUrl="~/images/Course2.PNG" runat="server" Height="240" /> </a>                       
                 </div>
                 <div class="col-sm-4">
-                     <a href="CoursesCustomisedCourses.aspx">  <asp:Image class="img-responsive" ID="Image3" ImageUrl="~/images/Course3.PNG" runat="server" Height="240" /></a>                       
+                     <a href="CoursesCustomisedCourses.aspx">  <asp:Image class="img-responsive img-thumbnail" ID="Image3" ImageUrl="~/images/Course3.PNG" runat="server" Height="240" /></a>                       
                 </div>
             </div>
         </div>
@@ -171,7 +171,7 @@
         <br />
 
         <!-- footer -->
-        <footer id="footer">
+       <footer id="footer">
 		<!-- footer-widget-wrapper -->
 		<div class="footer-widget-wrapper">
 			<div class="container">
@@ -181,7 +181,7 @@
 					<div class="col-md-3 col-sm-6">
 						<div class="footer-widget text-widget">
 							<a href="index.html" class="footer-logo"> <img src="images/ACI_logo.png" class="img-responsive" /></a>
-							<p>A web template system uses a template processor to combine web templates to form finished web pages, possibly using some data source to customize the pages or present a large amount of content on similar-looking pages.</p>
+							<p>Asian Culinary Institute (ACI) Singapore is a joint collaboration between SkillsFuture Singapore (SSG) (Previously known as WDA) and Nanyang Polytechnic (NYP). We are appointed by SSG to be the Anchor Provider for Food & Beverage Services industry. ACI is also the Programme Manager for the SkillsFuture Earn and Learn Programme (Food Services).</p>
 							<ul class="social list-inline">
 								<li><a href="#"><i class="fa fa-skype"></i></a></li>
 								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -196,9 +196,9 @@
 					<div class="col-md-3 col-sm-6">
 						<div class="footer-widget contact-widget">
 							<h1><span>Contact</span> Info</h1>
-							<p><i class="fa fa-map-marker"></i><strong>Address: </strong>102580 Cloud Libra L <br>YP. HYD BANGLORE</p>
-							<p><i class="fa fa-phone"></i><strong>Phone: <a href="tel:+9687542521">+3 045 224 55 15</a></strong></p>
-							<p><i class="fa fa-envelope"></i><strong>E-mail: <a href="mailto:info@aspxtemplates.com">info@aspxtemplates.com</a></strong></p>
+							<p><i class="fa fa-map-marker"></i><strong>Address: </strong>11 Eunos Road 8, Lifelong Learning Institute #03-01 (Lift Lobby A), Singapore 408601</p>
+							<p><i class="fa fa-phone"></i><strong>Phone: <a href="tel:+656417 3318">+(65) 6417 3318 </a></strong></p>
+							<p><i class="fa fa-envelope"></i><strong>E-mail: <a href="mailto:info@aci.edu.sg">info@aci.edu.sg</a></strong></p>
 						</div>
 					</div><!-- footer-widget -->
 
@@ -231,54 +231,13 @@
 				<div class="row">				
 					<div class="col-sm-8">
 						<ul class="footer-menu list-inline">
-							<li class="active"><a href="#">Home</a></li>
-        <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span></a>
-    <ul class="dropdown-menu">
-    <li class="active"><a href="#">Our vision, Mission, Values</a></li>
-    <li><a href="#">Facilities</a></li>
-    <li><a href="#">ACI distinguished chefs advisory panel</a></li>
-    <li><a href="#">Our partnets</a></li>
-        <li><a href="#">FAQs</a></li>
-    </ul>
-            </li>
-    <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses<span class="caret"></span></a>
-    <ul class="dropdown-menu">
-    <li class="active"><a href="#">Full Qualification</a></li>
-    <li><a href="#">Short</a></li>
-    <li><a href="#">Customised Courses</a></li>
-    </ul>
-    </li>
-         <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Training<span class="caret"></span></a>
-    <ul class="dropdown-menu">
-    <li class="active"><a href="#">Assessment-Only Pathway</a></li>
-    </ul>
-    </li>
-        <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
-    <ul class="dropdown-menu">
-    <li class="active"><a href="#">Career services</a></li>
-         <li><a href="#">Project & Consultancy services</a></li>
-         <li><a href="#">Job vacancies listing</a></li>
-    </ul>
-            </li>
-              <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admission<span class="caret"></span></a>
-    <ul class="dropdown-menu">
-    <li class="active"><a href="#">Online registeration</a></li>
-         
-    </ul>
-    </li>
-         <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Media<span class="caret"></span></a>
-    <ul class="dropdown-menu">
-    <li class="active"><a href="#">Photo gallery</a></li>
-         <li><a href="#">Videos</a></li>
-         <li><a href="#">Press Releases</a></li>
-    </ul>
-            </li>
+							<li ><a href="Home.aspx">Home</a></li>
+                            <li ><a href="Courses.aspx">Courses</a></li>
+                            <li class="active" ><a href="AboutUs.aspx">About Us</a></li>
+                            <li ><a href="Training.aspx">Training</a></li>
+                            <li ><a href="Services.aspx">Services</a></li>
+                            <li ><a href="Admission.aspx">Admission</a></li>
+                            <li ><a href="Media.aspx">Media</a></li>       
 						</ul>
 					</div>
 					<div class="col-sm-4">

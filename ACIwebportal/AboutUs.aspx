@@ -32,53 +32,53 @@
     </button>
     </div>
     <div class="collapse navbar-collapse" id="myNav">
-    <ul class="nav navbar-nav">
-    <li class="active"><a href="#">Home</a></li>
-        <li class="dropdown">
+     <ul class="nav navbar-nav">
+    <li><a href="Home.aspx">Home</a></li>
+        <li class="dropdown active">
     <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span></a>
     <ul class="dropdown-menu">
-    <li class="active"><a href="#">Our vision, Mission, Values</a></li>
-    <li><a href="#">Facilities</a></li>
-    <li><a href="#">ACI distinguished chefs advisory panel</a></li>
-    <li><a href="#">Our partnets</a></li>
-        <li><a href="#">FAQs</a></li>
+    <li><a href="AboutUs.aspx">Our vision, Mission, Values</a></li>
+    <li><a href="AboutUs.aspx">Facilities</a></li>
+    <li><a href="AboutUs.aspx">ACI Distinguished Chefs Advisory Panel</a></li>
+    <li><a href="AboutUs.aspx">Our partners</a></li>
+        <li><a href="AboutUs.aspx">FAQs</a></li>
     </ul>
             </li>
     <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses<span class="caret"></span></a>
+    <a href="Courses.aspx" class="dropdown-toggle" data-toggle="dropdown">Courses<span class="caret"></span></a>
     <ul class="dropdown-menu">
-    <li class="active"><a href="#">Full Qualification</a></li>
-    <li><a href="#">Short</a></li>
-    <li><a href="#">Customised Courses</a></li>
+    <li><a href="CoursesFullQualification.aspx">Full Qualification</a></li>
+    <li><a href="CoursesShortCourses.aspx">Short</a></li>
+    <li><a href="CoursesCustomisedCourses.aspx">Customised Courses</a></li>
     </ul>
     </li>
          <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Training<span class="caret"></span></a>
+    <a href="Training.aspx" class="dropdown-toggle" data-toggle="dropdown">Training<span class="caret"></span></a>
     <ul class="dropdown-menu">
-    <li class="active"><a href="#">Assessment-Only Pathway</a></li>
+    <li ><a href="Training.aspx">Assessment-Only Pathway</a></li>
     </ul>
     </li>
         <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
+    <a href="Services.aspx" class="dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
     <ul class="dropdown-menu">
-    <li class="active"><a href="#">Career services</a></li>
-         <li><a href="#">Project & Consultancy services</a></li>
-         <li><a href="#">Job vacancies listing</a></li>
+    <li><a href="Services.aspx">Career services</a></li>
+         <li><a href="Services.aspx">Project & Consultancy services</a></li>
+         <li><a href="Services.aspx">Job vacancies listing</a></li>
     </ul>
             </li>
               <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admission<span class="caret"></span></a>
+    <a href="Admission.aspx" class="dropdown-toggle" data-toggle="dropdown">Admission<span class="caret"></span></a>
     <ul class="dropdown-menu">
-    <li class="active"><a href="#">Online registeration</a></li>
+    <li><a href="Admission.aspx">Online registeration</a></li>
          
     </ul>
     </li>
          <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Media<span class="caret"></span></a>
+    <a href="Media.aspx" class="dropdown-toggle" data-toggle="dropdown">Media<span class="caret"></span></a>
     <ul class="dropdown-menu">
-    <li class="active"><a href="#">Photo gallery</a></li>
-         <li><a href="#">Videos</a></li>
-         <li><a href="#">Press Releases</a></li>
+    <li ><a href="Media.aspx">Photo gallery</a></li>
+         <li><a href="Media.aspx">Videos</a></li>
+         <li><a href="Media.aspx">Press Releases</a></li>
     </ul>
             </li>
    
@@ -151,8 +151,8 @@
                     <br />
                 </div>
             </div>
-                <div class="row">
-                    <div class="col-sm-12">
+            <div class="row">
+                <div class="col-sm-12">
                     <ul class="nav nav-tabs">
                         <li class="active"><a href="#OurVision" data-toggle="tab" aria-expanded="true">Our Vision, Mission, Values</a></li>
                         <li><a href="#Facilities" data-toggle="tab" aria-expanded="true">Facilities</a></li>
@@ -174,7 +174,7 @@
                                     <div class="row text-center">
                                         <div class="col-sm-6 service">
                                             <div class="service-content">
-                                                <asp:Image class="img-responsive" ID="Image3" ImageUrl="~/images/vision.jpg" runat="server" Height="240" Width="630" />
+                                                <asp:Image class="img-responsive img-thumbnail" ID="Image3" ImageUrl="~/images/vision.jpg" runat="server" Height="240" Width="600" />
                                             </div>
                                         </div>
                                         <div class="col-sm-6 service">
@@ -201,31 +201,31 @@
                                     <div class="text-center">
                                         <div class="col-sm-6 col-md-6 service">
                                             <div class="service-content">
-                                                <asp:Image class="img-responsive" ID="Image4" ImageUrl="~/images/values1.jpeg" runat="server" Height="320" Width="569" />
+                                                <asp:Image class="img-responsive img-thumbnail" ID="Image4" ImageUrl="~/images/values1.jpeg" runat="server" Height="320" Width="569" />
                                                 <h3>Can-Do Spirit</h3>
                                             </div>
                                         </div>
                                         <div class="col-sm-6 col-md-6 service">
                                             <div class="service-content">
-                                                <asp:Image class="img-responsive" ID="Image1" ImageUrl="~/images/value2.jpeg" runat="server" Height="320" Width="569" />
+                                                <asp:Image class="img-responsive img-thumbnail" ID="Image1" ImageUrl="~/images/value2.jpeg" runat="server" Height="320" Width="569" />
                                                 <h3>Borderless Teamwork</h3>
                                             </div>
                                         </div>
                                         <div class="col-sm-6 col-md-6 service">
                                             <div class="service-content">
-                                                <asp:Image class="img-responsive" ID="Image2" ImageUrl="~/images/value3.jpeg" runat="server" Height="320" Width="569" />
+                                                <asp:Image class="img-responsive img-thumbnail" ID="Image2" ImageUrl="~/images/value3.jpeg" runat="server" Height="320" Width="569" />
                                                 <h3>Development Orientation</h3>
                                             </div>
                                         </div>
                                         <div class="col-sm-6 col-md-6 service">
                                             <div class="service-content">
-                                                <asp:Image class="img-responsive" ID="Image5" ImageUrl="~/images/value4.jpeg" runat="server" Height="320" Width="569" />
+                                                <asp:Image class="img-responsive img-thumbnail" ID="Image5" ImageUrl="~/images/value4.jpeg" runat="server" Height="320" Width="569" />
                                                 <h3>Innovation and Enterprise</h3>
                                             </div>
                                         </div>
                                         <div class="col-sm-6 col-md-6 service">
                                             <div class="service-content">
-                                                <asp:Image class="img-responsive" ID="Image6" ImageUrl="~/images/value5.jpeg" runat="server" Height="320" Width="569" />
+                                                <asp:Image class="img-responsive img-thumbnail" ID="Image6" ImageUrl="~/images/value5.jpeg" runat="server" Height="320" Width="569" />
                                                 <h3>Nurturing and Caring Culture</h3>
                                             </div>
                                         </div>
@@ -306,7 +306,7 @@
                                     <div class="row text-center">
                                         <div class="col-sm-6 service">
                                             <div class="service-content">
-                                                <asp:Image class="img-responsive" ID="Image7" ImageUrl="~/images/fa1.jpg" runat="server" Height="240" Width="630" />
+                                                <asp:Image class="img-responsive img-thumbnail" ID="Image7" ImageUrl="~/images/fa1.jpg" runat="server" Height="240" Width="630" />
                                             </div>
                                         </div>
                                         <div class="col-sm-6 service">
@@ -328,7 +328,7 @@
                                     <div class="row text-center">
                                         <div class="col-sm-6 service">
                                             <div class="service-content">
-                                                <asp:Image class="img-responsive" ID="Image8" ImageUrl="~/images/fa2.jpg" runat="server" Height="240" Width="630" />
+                                                <asp:Image class="img-responsive img-thumbnail" ID="Image8" ImageUrl="~/images/fa2.jpg" runat="server" Height="240" Width="630" />
                                             </div>
                                         </div>
                                         <div class="col-sm-6 service">
@@ -345,7 +345,7 @@
                                     <div class="row text-center">
                                         <div class="col-sm-6 service">
                                             <div class="service-content">
-                                                <asp:Image class="img-responsive" ID="Image9" ImageUrl="~/images/fa3.jpg" runat="server" Height="240" Width="630" />
+                                                <asp:Image class="img-responsive img-thumbnail" ID="Image9" ImageUrl="~/images/fa3.jpg" runat="server" Height="240" Width="630" />
                                             </div>
                                         </div>
                                         <div class="col-sm-6 service">
@@ -366,7 +366,7 @@
                                     <div class="row text-center">
                                         <div class="col-sm-6 service">
                                             <div class="service-content">
-                                                <asp:Image class="img-responsive" ID="Image10" ImageUrl="~/images/fa4.jpg" runat="server" Height="240" Width="630" />
+                                                <asp:Image class="img-responsive img-thumbnail" ID="Image10" ImageUrl="~/images/fa4.jpg" runat="server" Height="240" Width="630" />
                                             </div>
                                         </div>
                                         <div class="col-sm-6 service">
@@ -385,7 +385,7 @@
                                     <div class="row text-center">
                                         <div class="col-sm-6 service">
                                             <div class="service-content">
-                                                <asp:Image class="img-responsive" ID="Image11" ImageUrl="~/images/fa5.jpg" runat="server" Height="240" Width="630" />
+                                                <asp:Image class="img-responsive img-thumbnail" ID="Image11" ImageUrl="~/images/fa5.jpg" runat="server" Height="240" Width="630" />
                                             </div>
                                         </div>
                                         <div class="col-sm-6 service">
@@ -406,7 +406,7 @@
                                     <div class="row text-center">
                                         <div class="col-sm-6 service">
                                             <div class="service-content">
-                                                <asp:Image class="img-responsive" ID="Image12" ImageUrl="~/images/fa6.jpg" runat="server" Height="240" Width="630" />
+                                                <asp:Image class="img-responsive img-thumbnail" ID="Image12" ImageUrl="~/images/fa6.jpg" runat="server" Height="240" Width="630" />
                                             </div>
                                         </div>
                                         <div class="col-sm-6 service">
@@ -463,22 +463,22 @@
                                     </p>
                                 </div>
                                 <div class="col-sm-12">
-                                    <asp:Image class="img-responsive" ID="Image13" ImageUrl="~/images/chef1.jpg" runat="server" Height="450" Width="1500" />
+                                    <asp:Image class="img-responsive img-thumbnail" ID="Image13" ImageUrl="~/images/chef1.jpg" runat="server" Height="450" Width="1500" />
                                 </div>
                                 <div class="col-sm-12">
-                                    <asp:Image class="img-responsive" ID="Image14" ImageUrl="~/images/chef2.jpg" runat="server" Height="450" Width="1500" />
+                                    <asp:Image class="img-responsive img-thumbnail" ID="Image14" ImageUrl="~/images/chef2.jpg" runat="server" Height="450" Width="1500" />
                                 </div>
                                 <div class="col-sm-12">
-                                    <asp:Image class="img-responsive" ID="Image15" ImageUrl="~/images/chef3.jpg" runat="server" Height="450" Width="1500" />
+                                    <asp:Image class="img-responsive img-thumbnail" ID="Image15" ImageUrl="~/images/chef3.jpg" runat="server" Height="450" Width="1500" />
                                 </div>
                                 <div class="col-sm-12">
-                                    <asp:Image class="img-responsive" ID="Image16" ImageUrl="~/images/chef4.jpg" runat="server" Height="450" Width="1500" />
+                                    <asp:Image class="img-responsive img-thumbnail" ID="Image16" ImageUrl="~/images/chef4.jpg" runat="server" Height="450" Width="1500" />
                                 </div>
                                 <div class="col-sm-12">
-                                    <asp:Image class="img-responsive" ID="Image17" ImageUrl="~/images/chef5.jpg" runat="server" Height="450" Width="1500" />
+                                    <asp:Image class="img-responsive img-thumbnail" ID="Image17" ImageUrl="~/images/chef5.jpg" runat="server" Height="450" Width="1500" />
                                 </div>
                                 <div class="col-sm-12">
-                                    <asp:Image class="img-responsive" ID="Image18" ImageUrl="~/images/chef6.jpg" runat="server" Height="450" Width="1500" />
+                                    <asp:Image class="img-responsive img-thumbnail" ID="Image18" ImageUrl="~/images/chef6.jpg" runat="server" Height="450" Width="1500" />
                                 </div>
 
 
@@ -487,44 +487,44 @@
                         </div>
 
 
-                        <div class="tab-pane fade" id="OurPartners">
+                      <div class="tab-pane fade" id="OurPartners">
 
-                            <div class="container padding-bottom">
+                            <div class="container">
                                 <div class="row">
                                     <div class="col-sm-12">
                                         <h1>Our Partners</h1>
                                     </div>
                                 </div>
-                                <div class="text-center our-clients">
-                                    <ul>
-                                        <li><a href="#">
-                                            <img class="img-responsive" src="images/p1.jpg" alt="" /></a></li>
-                                        <li><a href="#">
-                                            <img class="img-responsive" src="images/p2.png" alt="" /></a></li>
-                                        <li><a href="#">
-                                            <img class="img-responsive" src="images/p3.jpg" alt="" /></a></li>
-                                        <li><a href="#">
-                                            <img class="img-responsive" src="images/p4.jpg" alt="" /></a></li>
-                                        <li><a href="#">
-                                            <img class="img-responsive" src="images/p5.png" alt="" /></a></li>
-                                    </ul>
-                                    <ul>
-                                        <li><a href="#">
-                                            <img class="img-responsive" src="images/p6.png" alt="" /></a></li>
-                                        <li><a href="#">
-                                            <img class="img-responsive" src="images/p7.jpg" alt="" /></a></li>
-                                        <li><a href="#">
-                                            <img class="img-responsive" src="images/p8.jpg" alt="" /></a></li>
-                                        <li><a href="#">
-                                            <img class="img-responsive" src="images/p9.jpg" alt="" /></a></li>
-                                        <li><a href="#">
-                                            <img class="img-responsive" src="images/p10.png" alt="" /></a></li>
-                                    </ul>
+                                <div class="col-sm-3">                                  
+                                    <asp:Image class="img-responsive img-thumbnail" ID="Image19" ImageUrl="~/images/p1.jpg" runat="server" Height="140" Width="500" />
+                                </div>
+                                <div class="col-sm-3">                                   
+                                        <asp:Image class="img-responsive img-thumbnail" ID="Image20" ImageUrl="~/images/p2.png" runat="server" Height="140" Width="500" />                             
+                                </div>
+                                <div class="col-sm-3">                               
+                                       <asp:Image class="img-responsive img-thumbnail" ID="Image21" ImageUrl="~/images/p3.jpg" runat="server" Height="140" Width="500" />                             
+                                </div>
+                                <div class="col-sm-3">                               
+                                       <asp:Image class="img-responsive img-thumbnail" ID="Image22" ImageUrl="~/images/p4.jpg" runat="server" Height="140" Width="500" />                          
+                                </div>
+                                <div class="col-sm-3">                                 
+                                       <asp:Image class="img-responsive img-thumbnail" ID="Image23" ImageUrl="~/images/p5.png" runat="server" Height="140" Width="500" />                         
+                                </div>
+                                <div class="col-sm-3">                         
+                                       <asp:Image class="img-responsive img-thumbnail" ID="Image24" ImageUrl="~/images/p6.png" runat="server" Height="140" Width="500" />                             
+                                </div>
+                                 <div class="col-sm-3">                      
+                                        <asp:Image class="img-responsive img-thumbnail" ID="Image25" ImageUrl="~/images/p7.jpg" runat="server" Height="140" Width="500" />                             
+                                </div>
+                                <div class="col-sm-3">                           
+                                       <asp:Image class="img-responsive img-thumbnail" ID="Image26" ImageUrl="~/images/p8.jpg" runat="server" Height="140" Width="500" />                           
+                                </div>
+                                <div class="col-sm-3">                         
+                                       <asp:Image class="img-responsive img-thumbnail" ID="Image27" ImageUrl="~/images/p9.jpg" runat="server" Height="140" Width="500" />                            
                                 </div>
                                 <!--/our-clients -->
                             </div>
-
-                        </div>
+                          </div>
 
 
                         <div class="tab-pane fade" id="FAQs">
@@ -562,7 +562,7 @@ ACI is located at 11 Eunos Road 8, #03-01 Lifelong Learning Institute, Singapore
                                             </div>
                                             <div id="collapse2" class="panel-collapse collapse">
                                                 <div class="panel-body">
-                                                   ACI offers the following programmes and services 
+                                                    ACI offers the following programmes and services 
 
 WSQ Full certification and modular certification training programmes in culinary arts
 Short customised and public training programmes in culinary arts, service excellence, teambuilding and supervisory programmes
@@ -581,7 +581,7 @@ Placement services for Singaporeans/Singapore Permanent residents into the food 
                                             </div>
                                             <div id="collapse3" class="panel-collapse collapse">
                                                 <div class="panel-body">
-                                                 The Singapore Workforce Skills Qualifications (WSQ) is a national credentialing system. It trains, develops, assesses and recognises individuals for the key competencies that companies look for in potential employees.
+                                                    The Singapore Workforce Skills Qualifications (WSQ) is a national credentialing system. It trains, develops, assesses and recognises individuals for the key competencies that companies look for in potential employees.
 
 As an Anchor Provider for the food & beverage services sector, ACI offers Culinary Arts WSQ programmes from Certificate, Higher Certificate, Advanced Certificate, Diploma levels and Specialist Diploma levels. The programmes focus on the skills, knowledge and competencies (i.e. having the abilities to do the job well) that encompass employability, occupational and industry skills.
                                                 </div>
@@ -589,7 +589,7 @@ As an Anchor Provider for the food & beverage services sector, ACI offers Culina
                                         </div>
 
 
-                                                    <div class="panel panel-default">
+                                        <div class="panel panel-default">
                                             <div class="panel-heading">
                                                 <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">4. Are WSQ qualifications recognize by employers?</a>
@@ -597,7 +597,8 @@ As an Anchor Provider for the food & beverage services sector, ACI offers Culina
                                             </div>
                                             <div id="collapse4" class="panel-collapse collapse">
                                                 <div class="panel-body">
-                                              Yes, WSQ qualifications are recognized by employers of Singapore. WSQ qualifications are developed jointly by the Singapore Workforce Development Agency (WDA) and employers. WSQ qualifications are endorsed by employers, unions, and industry associations in the industry.</div>
+                                                    Yes, WSQ qualifications are recognized by employers of Singapore. WSQ qualifications are developed jointly by the Singapore Workforce Development Agency (WDA) and employers. WSQ qualifications are endorsed by employers, unions, and industry associations in the industry.
+                                                </div>
                                             </div>
                                         </div>
 
@@ -609,9 +610,10 @@ As an Anchor Provider for the food & beverage services sector, ACI offers Culina
                                             </div>
                                             <div id="collapse5" class="panel-collapse collapse">
                                                 <div class="panel-body">
-                                   The WSQ programme is a competency-based training programme. These competencies are developed by the Singapore Workforce Development Agency (WDA) and endorsed by employers, unions and industry associations in industry. They are translated into training modules to enable an individual to develop the required skills, knowledge and competencies to do his job well.
+                                                    The WSQ programme is a competency-based training programme. These competencies are developed by the Singapore Workforce Development Agency (WDA) and endorsed by employers, unions and industry associations in industry. They are translated into training modules to enable an individual to develop the required skills, knowledge and competencies to do his job well.
 
-The WSQ Diploma also recognises past training and current credentials in addition to academic achievements. In the case of Polytechnic diploma courses, these are targeted at secondary school leavers with entry requirement of minimum GCE 5 ‘O’ levels. The polytechnic courses are full time courses which are longer, and where academic focus takes prominence, unlike WSQ qualifications which competency and skills take the centre stage. </div>
+The WSQ Diploma also recognises past training and current credentials in addition to academic achievements. In the case of Polytechnic diploma courses, these are targeted at secondary school leavers with entry requirement of minimum GCE 5 ‘O’ levels. The polytechnic courses are full time courses which are longer, and where academic focus takes prominence, unlike WSQ qualifications which competency and skills take the centre stage.
+                                                </div>
                                             </div>
                                         </div>
 
@@ -623,11 +625,12 @@ The WSQ Diploma also recognises past training and current credentials in additio
                                             </div>
                                             <div id="collapse6" class="panel-collapse collapse">
                                                 <div class="panel-body">
-                         ACI programmes are targeted at the following:
+                                                    ACI programmes are targeted at the following:
 
 School leavers and new entrants into the F&B services industry 
 For working professionals in the Food & Beverage services industry who wish to upgrade their skills and knowledge to obtain a certificate 
-Individuals who wish to change their career and enter the Food & Beverage services industry </div>
+Individuals who wish to change their career and enter the Food & Beverage services industry
+                                                </div>
                                             </div>
                                         </div>
 
@@ -639,11 +642,12 @@ Individuals who wish to change their career and enter the Food & Beverage servic
                                             </div>
                                             <div id="collapse7" class="panel-collapse collapse">
                                                 <div class="panel-body">
-                                               You can sign up any module(s) as desired to raise required skill levels and competencies or complete a full qualification programme.
+                                                    You can sign up any module(s) as desired to raise required skill levels and competencies or complete a full qualification programme.
 
 This open and easy accessibility to training is the key feature of the CET training model. ACI encourages an open access approach to public wanting to enrol in WSQ modules / units or full programmes.
 
-For each competent module, you will be awarded a Statement of Attainment (SOA). Upon completion of the necessary modules in each qualification level, you will be issued a Full Qualification Certificate issued by the Singapore Workforce Development Agency.            </div>
+For each competent module, you will be awarded a Statement of Attainment (SOA). Upon completion of the necessary modules in each qualification level, you will be issued a Full Qualification Certificate issued by the Singapore Workforce Development Agency.           
+                                                </div>
                                             </div>
                                         </div>
 
@@ -655,7 +659,8 @@ For each competent module, you will be awarded a Statement of Attainment (SOA). 
                                             </div>
                                             <div id="collapse8" class="panel-collapse collapse">
                                                 <div class="panel-body">
-                                    Please check the ACI website at www.aci.edu.sg to view modules offered in various programmes. In the near future, you may also download ACI Mobile App Jobs/Courses, available in IOS and Android, for your convenience to view and apply for courses on the move. </div>
+                                                    Please check the ACI website at www.aci.edu.sg to view modules offered in various programmes. In the near future, you may also download ACI Mobile App Jobs/Courses, available in IOS and Android, for your convenience to view and apply for courses on the move.
+                                                </div>
                                             </div>
                                         </div>
 
@@ -667,7 +672,8 @@ For each competent module, you will be awarded a Statement of Attainment (SOA). 
                                             </div>
                                             <div id="collapse9" class="panel-collapse collapse">
                                                 <div class="panel-body">
-                                     Yes, the Statement of Attainment (SOA) is issued on a modular basis; a participant will be awarded the relevant SOA if they were to be assessed as competent. </div>
+                                                    Yes, the Statement of Attainment (SOA) is issued on a modular basis; a participant will be awarded the relevant SOA if they were to be assessed as competent.
+                                                </div>
                                             </div>
                                         </div>
 
@@ -679,9 +685,10 @@ For each competent module, you will be awarded a Statement of Attainment (SOA). 
                                             </div>
                                             <div id="collapse10" class="panel-collapse collapse">
                                                 <div class="panel-body">
-                                                No. Sponsorship is not a must. You can join the course on a self-paying basis.
+                                                    No. Sponsorship is not a must. You can join the course on a self-paying basis.
 
-For company sponsored, we can also arrange for a contextualised class with a minimum class size of 20 participants. Please contact us via our website for enquiries.  </div>
+For company sponsored, we can also arrange for a contextualised class with a minimum class size of 20 participants. Please contact us via our website for enquiries. 
+                                                </div>
                                             </div>
                                         </div>
 
@@ -693,9 +700,10 @@ For company sponsored, we can also arrange for a contextualised class with a min
                                             </div>
                                             <div id="collapse11" class="panel-collapse collapse">
                                                 <div class="panel-body">
-                                               The chance of getting a job with training in WSQ qualification is good.
+                                                    The chance of getting a job with training in WSQ qualification is good.
 
-The Statement of Attainment (SOA) that you obtained certifies that you are competent in the relevant unit. Coupled with relevant experience, ACI’s Career Services Centre will make recommendation to respective employers for their consideration   </div>
+The Statement of Attainment (SOA) that you obtained certifies that you are competent in the relevant unit. Coupled with relevant experience, ACI’s Career Services Centre will make recommendation to respective employers for their consideration  
+                                                </div>
                                             </div>
                                         </div>
 
@@ -707,9 +715,10 @@ The Statement of Attainment (SOA) that you obtained certifies that you are compe
                                             </div>
                                             <div id="collapse12" class="panel-collapse collapse">
                                                 <div class="panel-body">
-                     ACI assists in job placement for Singaporeans or Singapore Permanent Residents.
+                                                    ACI assists in job placement for Singaporeans or Singapore Permanent Residents.
 
-Course participants can request for employment assistance by completing an Employment Assistance Request form. ACI will review your application and recommend you to respective employers for their consideration. </div>
+Course participants can request for employment assistance by completing an Employment Assistance Request form. ACI will review your application and recommend you to respective employers for their consideration.
+                                                </div>
                                             </div>
                                         </div>
 
@@ -721,9 +730,10 @@ Course participants can request for employment assistance by completing an Emplo
                                             </div>
                                             <div id="collapse13" class="panel-collapse collapse">
                                                 <div class="panel-body">
-                         If you are a Singaporean or Singapore Permanent Resident, ACI will review your qualifications and work experience to assist you in job placement. Should you possess all the required qualifications and experience, we will recommend you to the respective employers for their consideration.
+                                                    If you are a Singaporean or Singapore Permanent Resident, ACI will review your qualifications and work experience to assist you in job placement. Should you possess all the required qualifications and experience, we will recommend you to the respective employers for their consideration.
 
-However, if there are skills & knowledge gaps, we will recommend you relevant WSQ courses which will enhance your employability and upon your course completion, we will recommend you to the respective employer for their consideration. </div>
+However, if there are skills & knowledge gaps, we will recommend you relevant WSQ courses which will enhance your employability and upon your course completion, we will recommend you to the respective employer for their consideration.
+                                                </div>
                                             </div>
                                         </div>
 
@@ -747,7 +757,7 @@ However, if there are skills & knowledge gaps, we will recommend you relevant WS
 
 
         <!-- footer -->
-        <footer id="footer">
+   <footer id="footer">
 		<!-- footer-widget-wrapper -->
 		<div class="footer-widget-wrapper">
 			<div class="container">
@@ -757,7 +767,7 @@ However, if there are skills & knowledge gaps, we will recommend you relevant WS
 					<div class="col-md-3 col-sm-6">
 						<div class="footer-widget text-widget">
 							<a href="index.html" class="footer-logo"> <img src="images/ACI_logo.png" class="img-responsive" /></a>
-							<p>A web template system uses a template processor to combine web templates to form finished web pages, possibly using some data source to customize the pages or present a large amount of content on similar-looking pages.</p>
+							<p>Asian Culinary Institute (ACI) Singapore is a joint collaboration between SkillsFuture Singapore (SSG) (Previously known as WDA) and Nanyang Polytechnic (NYP). We are appointed by SSG to be the Anchor Provider for Food & Beverage Services industry. ACI is also the Programme Manager for the SkillsFuture Earn and Learn Programme (Food Services).</p>
 							<ul class="social list-inline">
 								<li><a href="#"><i class="fa fa-skype"></i></a></li>
 								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -772,9 +782,9 @@ However, if there are skills & knowledge gaps, we will recommend you relevant WS
 					<div class="col-md-3 col-sm-6">
 						<div class="footer-widget contact-widget">
 							<h1><span>Contact</span> Info</h1>
-							<p><i class="fa fa-map-marker"></i><strong>Address: </strong>102580 Cloud Libra L <br>YP. HYD BANGLORE</p>
-							<p><i class="fa fa-phone"></i><strong>Phone: <a href="tel:+9687542521">+3 045 224 55 15</a></strong></p>
-							<p><i class="fa fa-envelope"></i><strong>E-mail: <a href="mailto:info@aspxtemplates.com">info@aspxtemplates.com</a></strong></p>
+							<p><i class="fa fa-map-marker"></i><strong>Address: </strong>11 Eunos Road 8, Lifelong Learning Institute #03-01 (Lift Lobby A), Singapore 408601</p>
+							<p><i class="fa fa-phone"></i><strong>Phone: <a href="tel:+656417 3318">+(65) 6417 3318 </a></strong></p>
+							<p><i class="fa fa-envelope"></i><strong>E-mail: <a href="mailto:info@aci.edu.sg">info@aci.edu.sg</a></strong></p>
 						</div>
 					</div><!-- footer-widget -->
 
@@ -807,54 +817,13 @@ However, if there are skills & knowledge gaps, we will recommend you relevant WS
 				<div class="row">				
 					<div class="col-sm-8">
 						<ul class="footer-menu list-inline">
-							<li class="active"><a href="#">Home</a></li>
-        <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span></a>
-    <ul class="dropdown-menu">
-    <li class="active"><a href="#">Our vision, Mission, Values</a></li>
-    <li><a href="#">Facilities</a></li>
-    <li><a href="#">ACI distinguished chefs advisory panel</a></li>
-    <li><a href="#">Our partnets</a></li>
-        <li><a href="#">FAQs</a></li>
-    </ul>
-            </li>
-    <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses<span class="caret"></span></a>
-    <ul class="dropdown-menu">
-    <li class="active"><a href="#">Full Qualification</a></li>
-    <li><a href="#">Short</a></li>
-    <li><a href="#">Customised Courses</a></li>
-    </ul>
-    </li>
-         <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Training<span class="caret"></span></a>
-    <ul class="dropdown-menu">
-    <li class="active"><a href="#">Assessment-Only Pathway</a></li>
-    </ul>
-    </li>
-        <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
-    <ul class="dropdown-menu">
-    <li class="active"><a href="#">Career services</a></li>
-         <li><a href="#">Project & Consultancy services</a></li>
-         <li><a href="#">Job vacancies listing</a></li>
-    </ul>
-            </li>
-              <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admission<span class="caret"></span></a>
-    <ul class="dropdown-menu">
-    <li class="active"><a href="#">Online registeration</a></li>
-         
-    </ul>
-    </li>
-         <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Media<span class="caret"></span></a>
-    <ul class="dropdown-menu">
-    <li class="active"><a href="#">Photo gallery</a></li>
-         <li><a href="#">Videos</a></li>
-         <li><a href="#">Press Releases</a></li>
-    </ul>
-            </li>
+							<li ><a href="Home.aspx">Home</a></li>
+                            <li ><a href="Courses.aspx">Courses</a></li>
+                            <li class="active" ><a href="AboutUs.aspx">About Us</a></li>
+                            <li ><a href="Training.aspx">Training</a></li>
+                            <li ><a href="Services.aspx">Services</a></li>
+                            <li ><a href="Admission.aspx">Admission</a></li>
+                            <li ><a href="Media.aspx">Media</a></li>       
 						</ul>
 					</div>
 					<div class="col-sm-4">
