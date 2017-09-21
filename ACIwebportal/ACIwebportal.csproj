@@ -87,6 +87,7 @@
     <Content Include="fonts\lato-regular-webfont.ttf" />
     <Content Include="fonts\lato-regular-webfont.woff" />
     <Content Include="fonts\lato-regular-webfont.woff2" />
+    <Content Include="WSQCert.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -278,6 +279,13 @@
     </Compile>
     <Compile Include="Training.aspx.designer.cs">
       <DependentUpon>Training.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WSQCert.aspx.cs">
+      <DependentUpon>WSQCert.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WSQCert.aspx.designer.cs">
+      <DependentUpon>WSQCert.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>
