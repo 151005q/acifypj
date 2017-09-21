@@ -10,10 +10,35 @@
     <link href="css/custom.css" rel="stylesheet" type="text/css" />
     <link rel="Shortcut Icon" href="images/favicon.ico" />
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
         rel="stylesheet" type="text/css" />
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .affix {
+            top: 0;
+            width: 100%;
+            -webkit-transition: all .5s ease-in-out;
+            transition: all .5s ease-in-out;
+            background-color: grey;
+            border-color: #000;
+            z-index: 9999 !important;
+        }
 
+            .affix a {
+                color: #000 !important;
+                padding: 15px !important;
+                -webkit-transition: all .5s ease-in-out;
+                transition: all .5s ease-in-out;
+            }
+
+        .affix-top a {
+            padding: 25px !important;
+        }
+
+        .affix + .container-fluid {
+            padding-top: 95px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -23,7 +48,7 @@
             </div>
         </div>
         <!-- Navigation -->
-        <nav class="navbar navbar-default" role="navigation">
+        <nav class="navbar navbar-default"  data-spy="affix" data-offset-top="197" role="navigation">
     <div class="container">
     <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNav">
@@ -35,7 +60,7 @@
     <div class="collapse navbar-collapse" id="myNav">
      <ul class="nav navbar-nav">
     <li><a href="Home.aspx">Home</a></li>
-    <li><a href="Events.aspx">Events</a></li>
+    <li class="active"><a href="Events.aspx">Events</a></li>
         <li class="dropdown">
     <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span></a>
     <ul class="dropdown-menu">
@@ -46,7 +71,7 @@
         <li><a href="AboutUs.aspx">FAQs</a></li>
     </ul>
             </li>
-    <li class="dropdown active">
+    <li class="dropdown ">
     <a href="Courses.aspx" class="dropdown-toggle" data-toggle="dropdown">Courses<span class="caret"></span></a>
     <ul class="dropdown-menu">
     <li><a href="CoursesFullQualification.aspx">Full Qualification</a></li>
@@ -201,12 +226,13 @@
                     </table>
                 </div>
             </div>
-            
-        </div>
-        
+
+
+
             <div class="row">
                 <div class="col-sm-12">
                     <div class="table-responsive">
+                        <h1>Events 2016</h1>
                         <table class="table table-bordered table-hover">
                             <thead>
                                 <tr>
@@ -214,7 +240,7 @@
                                     <th>Event</th>
                                 </tr>
                             </thead>
-                            <tbody >
+                            <tbody>
                                 <tr>
                                     <td>17 Oct 2016</td>
                                     <td><a href="EventDetails.aspx">October One Day Pastry Course</a></td>
@@ -240,6 +266,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         <br />
 
         <!-- footer -->

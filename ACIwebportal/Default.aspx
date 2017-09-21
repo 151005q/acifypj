@@ -13,6 +13,32 @@
      <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
         rel="stylesheet" type="text/css" />
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic"  rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .affix {
+            top: 0;
+            width: 100%;
+            -webkit-transition: all .5s ease-in-out;
+            transition: all .5s ease-in-out;
+            background-color: grey;
+            border-color: #000;
+            z-index: 9999 !important;
+        }
+
+            .affix a {
+                color:#000 !important;
+                padding: 15px !important;
+                -webkit-transition: all .5s ease-in-out;
+                transition: all .5s ease-in-out;
+            }
+
+        .affix-top a {
+            padding: 25px !important;
+        }
+
+        .affix + .container-fluid {
+            padding-top: 95px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">

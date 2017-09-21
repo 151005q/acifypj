@@ -13,6 +13,38 @@
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
         rel="stylesheet" type="text/css" />
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+  
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+    <style type="text/css">
+        .affix {
+            top: 0;
+            width: 100%;
+            -webkit-transition: all .5s ease-in-out;
+            transition: all .5s ease-in-out;
+            background-color: grey;
+            border-color: #000;
+            z-index: 9999 !important;
+        }
+
+            .affix a {
+                color: #000 !important;
+                padding: 15px !important;
+                -webkit-transition: all .5s ease-in-out;
+                transition: all .5s ease-in-out;
+            }
+
+        .affix-top a {
+            padding: 25px !important;
+        }
+
+        .affix + .container-fluid {
+            padding-top: 95px;
+        }
+    </style>
+
+
 </head>
 <body>
     <form id="form1" runat="server">
@@ -22,9 +54,9 @@
             </div>
         </div>
         <!-- Navigation -->
-        <nav class="navbar navbar-default" role="navigation">
+        <nav class="navbar navbar-default " data-spy="affix" data-offset-top="197"  data-spy="affix" data-offset-top="197" role="navigation">
     <div class="container">
-    <div class="navbar-header">
+    <div class="navbar-header ">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNav">
     <span class="icon-bar"></span>
     <span class="icon-bar"></span>
@@ -170,23 +202,23 @@ This course provides you with the opportunity for a hands-on session with our pa
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4">
-                    <asp:Image class="img-responsive img-thumbnail" ID="Image1" ImageUrl="~/images/event1.jpg" runat="server" Height="240" />
+                <div class="col-sm-4 col-lg-4 col-md-4">
+                    <asp:Image class="img-responsive img-thumbnail" ID="Image1" ImageUrl="~/images/event1.jpg" runat="server" Height="240" Width="600" />
                 </div>
-                <div class="col-sm-4">
-                    <asp:Image class="img-responsive img-thumbnail" ID="Image2" ImageUrl="~/images/event2.jpg" runat="server" Height="240" />
+                <div class="col-sm-4 col-lg-4 col-md-4">
+                    <asp:Image class="img-responsive img-thumbnail" ID="Image2" ImageUrl="~/images/event2.jpg" runat="server" Height="240" Width="600" />
                 </div>
-                <div class="col-sm-4">
-                    <asp:Image class="img-responsive img-thumbnail" ID="Image3" ImageUrl="~/images/event3.jpg" runat="server" Height="240" />
+                <div class="col-sm-4 col-lg-4 col-md-4">
+                    <asp:Image class="img-responsive img-thumbnail" ID="Image3" ImageUrl="~/images/event3.jpg" runat="server" Height="240" Width="600" />
                 </div>
             </div>
             <br />
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-md-12">
                     <div class="embed-responsive embed-responsive-16by9">
-                          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zGG5BwnMre4" frameborder="0" allowfullscreen="true"></iframe>                  
-                         </div>
-                   </div>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zGG5BwnMre4" frameborder="0" allowfullscreen="true"></iframe>
+                    </div>
+                </div>
             </div>
         </div>
 
