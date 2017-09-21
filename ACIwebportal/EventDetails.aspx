@@ -35,13 +35,6 @@
                 transition: all .5s ease-in-out;
             }
 
-        .affix-top a {
-            padding: 25px !important;
-        }
-
-        .affix + .container-fluid {
-            padding-top: 95px;
-        }
     </style>
 
 

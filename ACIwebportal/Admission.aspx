@@ -32,13 +32,6 @@
                 transition: all .5s ease-in-out;
             }
 
-        .affix-top a {
-            padding: 25px !important;
-        }
-
-        .affix + .container-fluid {
-            padding-top: 95px;
-        }
     </style>
 </head>
 <body>
@@ -94,7 +87,7 @@
                                 <li><a href="Services.aspx">Job vacancies listing</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown">
+                        <li class="dropdown active">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admission<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="Admission.aspx">Online registeration</a></li>

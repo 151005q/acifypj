@@ -14,7 +14,7 @@
         rel="stylesheet" type="text/css" />
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
     <style type="text/css">
-        .affix {
+                .affix {
             top: 0;
             width: 100%;
             -webkit-transition: all .5s ease-in-out;
@@ -29,15 +29,7 @@
                 padding: 15px !important;
                 -webkit-transition: all .5s ease-in-out;
                 transition: all .5s ease-in-out;
-            }
-
-        .affix-top a {
-            padding: 25px !important;
-        }
-
-        .affix + .container-fluid {
-            padding-top: 95px;
-        }
+            }          
     </style>
 </head>
 <body>

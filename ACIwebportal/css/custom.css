@@ -184,6 +184,7 @@ item,
     padding-top: 32.15%;
     padding-bottom: 5%;
     text-align: center;
+    color:red;
 }
 
 .intro-message > h1 {
@@ -229,7 +230,7 @@ item,
 
 .modal-header {
     border-style: none;
-    background-color: #FF9933;
+    background-color: grey;
     -webkit-border-radius: 5px 5px 0px 0px;
     -moz-border-radius: 5px 5px 0px 0px;
     border-radius: 5px 5px 0px 0px;
