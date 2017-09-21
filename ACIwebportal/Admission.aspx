@@ -39,7 +39,7 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li class=""><a href="AboutUs.aspx">Our vision, Mission, Values</a></li>
+                                <li><a href="AboutUs.aspx">Our vision, Mission, Values</a></li>
                                 <li><a href="AboutUs.aspx">Facilities</a></li>
                                 <li><a href="AboutUs.aspx">ACI distinguished chefs advisory panel</a></li>
                                 <li><a href="AboutUs.aspx">Our partnets</a></li>
@@ -68,7 +68,7 @@
                                 <li><a href="Services.aspx">Job vacancies listing</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown ">
+                        <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admission<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="Admission.aspx">Online registeration</a></li>
