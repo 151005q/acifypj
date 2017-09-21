@@ -174,7 +174,7 @@
                             <div class="row text-center">
 
                                 <div class="col-sm-2 col-md-2">
-                                    <asp:Image class="img-responsive" Width="150px" Height="150px" ImageUrl="~/images/photogallery1.jpg" ID="Image1" runat="server" />
+                                    <asp:ImageButton ID="ImageButton1" Width="150px" Height="150px" ImageUrl="~/images/photogallery1.jpg" runat="server" />
                                 </div>
                                 <div class="col-sm-4 col-md-4">
                                     <p>08 July 2017</p>
@@ -183,7 +183,7 @@
 
 
                                 <div class="col-sm-2 col-md-2">
-                                    <asp:Image class="img-responsive" ImageUrl="~/images/photogallery2.jpg" ID="Image2" runat="server" />
+                                   <asp:ImageButton ID="ImageButton2" Width="150px" Height="150px" ImageUrl="~/images/photogallery2.jpg" runat="server" />
                                 </div>
                                 <div class="col-sm-4 col-md-4">
                                     <p>08 July 2017</p>
