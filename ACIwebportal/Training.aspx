@@ -118,8 +118,8 @@
 
         <div class="row section-title text-center">
             <div class="col-sm-8 col-sm-offset-2">
-                <h1>Assessment-Only Pathway
-                </h1>
+                <h2>Assessment-Only Pathway
+                </h2>
             </div>
             <div class="col-sm-8 col-sm-offset-2">
                 <div class="service-content">

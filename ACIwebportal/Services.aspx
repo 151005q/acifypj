@@ -180,8 +180,8 @@
                             </p>
                             <p>*Available on both iOS and Android</p>
                             <ul>
-                                <li>For iOS: Click <a href="">here</a> to download</li>
-                                <li>For Android: Click <a href="">here</a> to download</li>
+                                <li>For iOS: Click <a href="https://itunes.apple.com/sg/app/job-courses-aci/id1024854413?mt=8">here</a> to download</li>
+                                <li>For Android: Click <a href="https://play.google.com/store/apps/details?id=sg.edu.aci">here</a> to download</li>
                             </ul>
 
                         </div>
