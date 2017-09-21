@@ -130,7 +130,7 @@
             </div>
         </div>
         <!-- Landing Page -->
-        <div class="intro-headerCourses">
+        <div class="intro-headerEventDetails">
             <!-- change this image in custom.css-->
             <div class="container">
                 <div class="row">
@@ -147,17 +147,53 @@
                 <div class="col-sm-12">
                     <ul class="breadcrumb">
                         <li><a href="#">Home</a></li>
-                        <li class="active">Events</li>
+                        <li class="active">Event Details</li>
                     </ul>
                     <br />
                 </div>
-            </div>          
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>SAMPLE EVENT PAGE September One Day Pastry Course</h1>
+                    <h3>Event Date</h3>
+                    <p>29 September 2017, 09:00 to 17:00</p>
+                    <h3>Location</h3>
+                    <p>Asian Culinary Institute at 11 Eunos Road 8, Lifelong Learning Institute #03-01, Singapore 408601</p>
+                    <h3>Description</h3>
+                    <p>
+                        Have you always wanted to try your hand at pastry making?  
+
+This course provides you with the opportunity for a hands-on session with our pastry chef to learn how to make the 2 delicious recipes. At the end of the course, you will also get to bring back the pastry creations you have made. What are you waiting for? Make full use of your SkillsFuture Credit and sign up with us now.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <asp:Image class="img-responsive img-thumbnail" ID="Image1" ImageUrl="~/images/event1.jpg" runat="server" Height="240" />
+                </div>
+                <div class="col-sm-4">
+                    <asp:Image class="img-responsive img-thumbnail" ID="Image2" ImageUrl="~/images/event2.jpg" runat="server" Height="240" />
+                </div>
+                <div class="col-sm-4">
+                    <asp:Image class="img-responsive img-thumbnail" ID="Image3" ImageUrl="~/images/event3.jpg" runat="server" Height="240" />
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="embed-responsive embed-responsive-16by9">
+                          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zGG5BwnMre4" frameborder="0" allowfullscreen="true"></iframe>                  
+                         </div>
+                   </div>
+            </div>
         </div>
 
         <br />
 
         <!-- footer -->
-       <footer id="footer">
+        <footer id="footer">
 		<!-- footer-widget-wrapper -->
 		<div class="footer-widget-wrapper">
 			<div class="container">
@@ -218,9 +254,9 @@
 					<div class="col-sm-8">
 						<ul class="footer-menu list-inline">
 							<li ><a href="Home.aspx">Home</a></li>
-                               <li><a href="Events.aspx">Events</a></li>
+                               <li class="active" ><a href="Events.aspx">Events</a></li>
                             <li ><a href="Courses.aspx">Courses</a></li>
-                            <li class="active" ><a href="AboutUs.aspx">About Us</a></li>
+                            <li ><a href="AboutUs.aspx">About Us</a></li>
                             <li ><a href="Training.aspx">Training</a></li>
                             <li ><a href="Services.aspx">Services</a></li>
                             <li ><a href="Admission.aspx">Admission</a></li>

@@ -180,6 +180,7 @@
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\html5shiv.js" />
     <Content Include="js\jquery.js" />
+    <Content Include="js\pagenation.js" />
     <Content Include="Media.aspx" />
     <Content Include="Services.aspx" />
     <Content Include="Training.aspx" />
