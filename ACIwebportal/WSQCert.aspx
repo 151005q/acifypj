@@ -149,8 +149,8 @@
             <div class="row">
                 <div class="col-sm-12">
                     <ul class="breadcrumb">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Admission</a></li>
+                        <li><a href="Home.aspx">Home</a></li>
+                        <li><a href="Admission.aspx">Admission</a></li>
                         <li class="active">WSQ Certificate Programmes</li>
                     </ul>
                     <br />
@@ -508,7 +508,314 @@
 
                     </div>
                 </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">Employment History</label>
+                    <div class="col-sm-offset-2">
+                        <label>Current Employment</label>
+                        <br />
+                        <label for="inputEmployer1">Name of Employer:</label>
+                        <input type="text" class="form-control" id="inputEmployer1" />
 
+                    </div>
+                </div>
+                <div class="form-group">
+
+                    <div class="col-sm-offset-2">
+
+                        <label>Position(s) Held:</label>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox">
+                                General Workers
+                            </label>
+                            <br />
+                            <label>
+                                <input type="checkbox">
+                                Production/Admin Support Staff
+                            </label>
+                            <br />
+                            <label>
+                                <input type="checkbox">
+                                Supervisor & Technician
+                            </label>
+                            <br />
+                            <label>
+                                <input type="checkbox">
+                                Executive & Engineer
+                            </label>
+                            <br />
+                            <label>
+                                <input type="checkbox">
+                                Manager & Head
+                            </label>
+                            <br />
+                            <label>
+                                <input type="checkbox">
+                                Kitchen Crew
+                            </label>
+                            <br />
+                            <label for="inputTitle">
+                                Title:
+                            </label>
+                            <input type="text" class="form-control" id="inputTitle" placeholder="">
+                            <br />
+                            <label>
+                                <input type="checkbox">
+                                Others
+                            </label>
+                            <br />
+                            <label for="inputOthers">
+                                Please Specify:
+                            </label>
+                            <input type="text" class="form-control" id="inputOthers" placeholder="">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2">
+                        
+                        <label for="SDate1">From (mm/yyyy)</label>
+                        <input type="text" class="form-control" id="SDate1" />
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2">
+                        
+                        <label for="EDate1">To (mm/yyyy)</label>
+                        <input type="text" class="form-control" id="EDate1" />
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2">
+                        
+                        <label for="s1">Last Drawn Salary</label>
+                        <input type="text" class="form-control" id="s1" />
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2">
+                        
+                        <label>Previous Employment</label>
+                        
+                        <br />
+                        <label for="inputEmployer2">Name of Employer</label>
+                        <input type="text" class="form-control" id="inputEmployer2" />
+
+                    </div>
+                </div>
+                <div class="form-group">
+
+                    <div class="col-sm-offset-2">
+
+                        <label>Position(s) Held:</label>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox">
+                                General Workers
+                            </label>
+                            <br />
+                            <label>
+                                <input type="checkbox">
+                                Production/Admin Support Staff
+                            </label>
+                            <br />
+                            <label>
+                                <input type="checkbox">
+                                Supervisor & Technician
+                            </label>
+                            <br />
+                            <label>
+                                <input type="checkbox">
+                                Executive & Engineer
+                            </label>
+                            <br />
+                            <label>
+                                <input type="checkbox">
+                                Manager & Head
+                            </label>
+                            <br />
+                            <label>
+                                <input type="checkbox">
+                                Kitchen Crew
+                            </label>
+                            <br />
+                            <label for="inputTitle2">
+                                Title:
+                            </label>
+                            <input type="text" class="form-control" id="inputTitle2" placeholder="">
+                            <br />
+                            <label>
+                                <input type="checkbox">
+                                Others
+                            </label>
+                            <br />
+                            <label for="inputOthers2">
+                                Please Specify:
+                            </label>
+                            <input type="text" class="form-control" id="inputOthers2" placeholder="">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2">
+                        
+                        <label for="SDate2">From (mm/yyyy)</label>
+                        <input type="text" class="form-control" id="SDate2" />
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2">
+                        
+                        <label for="EDate2">To (mm/yyyy)</label>
+                        <input type="text" class="form-control" id="EDate2" />
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2">
+                        
+                        <label for="s2">Last Drawn Salary</label>
+                        <input type="text" class="form-control" id="s2" />
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div>
+                        <label>Payment</label>
+                    </div>
+                </div>
+                
+                        <div class="form-group">
+                    <div class="col-sm-offset-2">
+
+
+                        <div class="radio col-sm-offset-0">
+                            <label>
+                                <input type="radio" name="optionsRadios" id="p1" value="option1" checked="">
+                                Company Sponsored
+                            </label>
+                        </div>
+                        <div class="radio col-sm-offset-0">
+                            <label>
+                                <input type="radio" name="optionsRadios" id="p2" value="option2">
+                                SME
+                            </label>
+                        </div>
+                        <div class="radio col-sm-offset-0">
+                            <label>
+                                <input type="radio" name="optionsRadios" id="p3" value="option3">
+                                Non-SME
+                            </label>
+                        </div>
+                        <div class="radio col-sm-offset-0">
+                            <label>
+                                <input type="radio" name="optionsRadios" id="p4" value="option4">
+                                Self-sponsored
+                            </label>
+                        </div>
+                        <div class ="col-sm-offset-0">
+                            <label>I declare that I am __________ for WTS funding at the point of course registration</label>
+
+                        </div>
+                        <div class="radio col-sm-offset-0">
+                            <label>
+                                <input type="radio" name="optionsRadios" id="p5" value="option5">
+                                Eligible
+                            </label>
+                        </div>
+                        <div class="radio col-sm-offset-0">
+                            <label>
+                                <input type="radio" name="optionsRadios" id="65" value="option5">
+                                Not eligible
+                            </label>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Where did you get to know us?</label>
+                    <div class="checkbox col-sm-offset-2">
+                            <label>
+                                <input type="checkbox">
+                                Newspaper
+                            </label>
+                            <br />
+                            <label>
+                                <input type="checkbox">
+                                Facebook
+                            </label>
+                            <br />
+                            <label>
+                                <input type="checkbox">
+                                Magazine
+                            </label>
+                            <br />
+                            <label>
+                                <input type="checkbox">
+                                Word of mouth
+                            </label>
+                            <br />
+                            <label>
+                                <input type="checkbox">
+                                Events/roadshows
+                            </label>
+                            <br />
+                            <label>
+                                <input type="checkbox">
+                                Others:
+                            </label>
+                            <br />
+                            
+                            <input type="text" class="form-control" id="inputOthers2" placeholder="">
+                            
+                        </div>
+                </div>
+                
+                <div class="form-group">
+                    <label>Declaration by applicant</label>
+                    <div class="checkbox col-sm-offset-2">
+                            <label>
+                                <input type="checkbox">
+                                I declare that all of the information provided by me in this application form is true and correct. I understand that any false statement(s) and/or misrepresentation(s) is/are sufficient ground(s) for the rejection of my application. 
+                            </label>
+                            <br />
+                            <label>
+                                <input type="checkbox">
+                                I understand that a culinary or related course, which is a skill-based training programme conducted in a kitchen environment, is physically and mentally demanding.
+                            </label>
+                            <br />
+                            <label>
+                                <input type="checkbox">
+                                I further declare that I am physically and mentally fit to undertake the training programme I apply, and I will not hold ACI or its officers, trainers responsible for any physical discomfort or injuries which may occur from attending the programme.
+                            </label>
+                            <br />
+                            <label>
+                                <input type="checkbox">
+                                I also declare that prior to this; I have not enrolled in the course/module(s) indicated above. Otherwise, I will bear the full course/module(s) fees without any subsidy. 
+                            </label>
+                            <br />
+                            <label>
+                                <input type="checkbox">
+                                I authorize any investigation of the above information for the purpose of verification.
+                            </label>
+                            <br />
+                            <label>
+                                <input type="checkbox">
+                                If I am absence from class for valid reasons (Medical / hospitalization leave), I need to inform ACI by the next working day or earliest possible date.
+                            </label>
+                        <label>
+                                <input type="checkbox">
+                                I understand that ACI reserves the right not to accept my application/request and may cancel or change the class schedule at short notice.
+                            </label>
+                            
+                        </div>
+                    </div>
                 <div class="form-group">
                     <div class="col-lg-10 col-lg-offset-2">
                         <button type="reset" class="btn btn-default">Cancel</button>
