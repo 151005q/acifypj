@@ -39,7 +39,7 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li class="active"><a href="AboutUs.aspx">Our vision, Mission, Values</a></li>
+                                <li class=""><a href="AboutUs.aspx">Our vision, Mission, Values</a></li>
                                 <li><a href="AboutUs.aspx">Facilities</a></li>
                                 <li><a href="AboutUs.aspx">ACI distinguished chefs advisory panel</a></li>
                                 <li><a href="AboutUs.aspx">Our partnets</a></li>
@@ -49,7 +49,7 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li class="active"><a href="Courses.aspx">Full Qualification</a></li>
+                                <li><a href="Courses.aspx">Full Qualification</a></li>
                                 <li><a href="Courses.aspx">Short</a></li>
                                 <li><a href="Courses.aspx">Customised Courses</a></li>
                             </ul>
@@ -57,28 +57,28 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Training<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li class="active"><a href="Training.aspx">Assessment-Only Pathway</a></li>
+                                <li><a href="Training.aspx">Assessment-Only Pathway</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li class="active"><a href="Services.aspx">Career services</a></li>
+                                <li><a href="Services.aspx">Career services</a></li>
                                 <li><a href="Services.aspx">Project & Consultancy services</a></li>
                                 <li><a href="Services.aspx">Job vacancies listing</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown active">
+                        <li class="dropdown ">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admission<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li class="active"><a href="Admission.aspx">Online registeration</a></li>
+                                <li><a href="Admission.aspx">Online registeration</a></li>
 
                             </ul>
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Media<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li class="active"><a href="Media.aspx">Photo gallery</a></li>
+                                <li><a href="Media.aspx">Photo gallery</a></li>
                                 <li><a href="Media.aspx">Videos</a></li>
                                 <li><a href="Media.aspx">Press Releases</a></li>
                             </ul>
